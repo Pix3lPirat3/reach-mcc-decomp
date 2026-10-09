@@ -14,5 +14,5 @@ struct Dependencies {
     void (*call)(void*, std::uint32_t target, std::uint32_t site, Registers&);
 };
 inline constexpr std::uint32_t tls_index_rva = 0xc17b18;
-void body_6de38(Registers&, const Dependencies&, std::uint64_t module_base);
+void scan_identity_count_and_request_quota_delta(Registers&, const Dependencies&, std::uint64_t module_base);
 }

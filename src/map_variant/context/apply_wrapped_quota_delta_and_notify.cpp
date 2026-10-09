@@ -1,4 +1,4 @@
-#include "update_760b4.hpp"
+#include "apply_wrapped_quota_delta_and_notify.hpp"
 
 namespace recon457 {
 namespace {
@@ -31,7 +31,7 @@ registers getter_6bcec(memory& m,address module,registers r) {
     r.rdx=r.rax;r.rcx=observed.index;r.r8=observed.block;
     return r;
 }
-registers body_760b4(memory& m,address module,address working,registers r) {
+registers apply_wrapped_quota_delta_and_notify(memory& m,address module,address working,registers r) {
     auto saved_b=static_cast<std::uint8_t>(r.rdx);
     const auto index=static_cast<std::uint32_t>(r.rcx);
     r.r9=(index&0x80000000u)!=0u?address{index}|0xffffffff00000000ull:index;

@@ -37,12 +37,13 @@ In progress means no qualifying matched contribution is recorded.
 | [src/map&#95;variant/chunks/decode&#95;chunk.hpp](src/map_variant/chunks/decode_chunk.hpp) | 0 | In progress |
 | [src/map&#95;variant/chunks/encode&#95;chunk.cpp](src/map_variant/chunks/encode_chunk.cpp) | 0 | In progress |
 | [src/map&#95;variant/chunks/encode&#95;chunk.hpp](src/map_variant/chunks/encode_chunk.hpp) | 0 | In progress |
-| [src/map&#95;variant/context/dispatch&#95;6de38.cpp](src/map_variant/context/dispatch_6de38.cpp) | 0 | In progress |
-| [src/map&#95;variant/context/dispatch&#95;6de38.hpp](src/map_variant/context/dispatch_6de38.hpp) | 0 | In progress |
+| [src/map&#95;variant/context/apply&#95;wrapped&#95;quota&#95;delta&#95;and&#95;notify.cpp](src/map_variant/context/apply_wrapped_quota_delta_and_notify.cpp) | 0 | In progress |
+| [src/map&#95;variant/context/apply&#95;wrapped&#95;quota&#95;delta&#95;and&#95;notify.hpp](src/map_variant/context/apply_wrapped_quota_delta_and_notify.hpp) | 0 | In progress |
 | [src/map&#95;variant/context/getter.cpp](src/map_variant/context/getter.cpp) | 0 | In progress |
 | [src/map&#95;variant/context/getter.hpp](src/map_variant/context/getter.hpp) | 0 | In progress |
-| [src/map&#95;variant/context/update&#95;760b4.cpp](src/map_variant/context/update_760b4.cpp) | 0 | In progress |
-| [src/map&#95;variant/context/update&#95;760b4.hpp](src/map_variant/context/update_760b4.hpp) | 0 | In progress |
+| [src/map&#95;variant/context/scan&#95;identity&#95;count&#95;and&#95;request&#95;quota&#95;delta.cpp](src/map_variant/context/scan_identity_count_and_request_quota_delta.cpp) | 0 | In progress |
+| [src/map&#95;variant/context/scan&#95;identity&#95;count&#95;and&#95;request&#95;quota&#95;delta.hpp](src/map_variant/context/scan_identity_count_and_request_quota_delta.hpp) | 0 | In progress |
+| [src/map&#95;variant/create&#95;all&#95;objects&#95;native.cpp](src/map_variant/create_all_objects_native.cpp) | 0 | In progress |
 | [src/map&#95;variant/decoder.cpp](src/map_variant/decoder.cpp) | 0 | In progress |
 | [src/map&#95;variant/decoder.hpp](src/map_variant/decoder.hpp) | 0 | In progress |
 | [src/map&#95;variant/decoder&#95;core.hpp](src/map_variant/decoder_core.hpp) | 0 | In progress |
@@ -123,6 +124,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/math/vector/normalize.hpp](src/math/vector/normalize.hpp) | 0 | In progress |
 | [src/math/vector/operations.cpp](src/math/vector/operations.cpp) | 0 | In progress |
 | [src/math/vector/operations.hpp](src/math/vector/operations.hpp) | 0 | In progress |
+| [src/megalo/definition&#95;validate&#95;native.cpp](src/megalo/definition_validate_native.cpp) | 0 | In progress |
 | [src/memory/bitvector&#95;count&#95;native.cpp](src/memory/bitvector_count_native.cpp) | 312 | Matched contribution |
 | [src/memory/bitvector&#95;intersection&#95;native.cpp](src/memory/bitvector_intersection_native.cpp) | 91 | Matched contribution |
 | [src/memory/data&#95;rebase&#95;native.cpp](src/memory/data_rebase_native.cpp) | 68 | Matched contribution |

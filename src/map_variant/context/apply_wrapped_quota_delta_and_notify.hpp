@@ -25,5 +25,5 @@ struct memory : recon453::Memory, recon453::Dependency {
 
 registers getter_6bcec(memory&,address module,registers);
 
-registers body_760b4(memory&,address module,address working_rsp,registers);
+registers apply_wrapped_quota_delta_and_notify(memory&,address module,address working_rsp,registers);
 }

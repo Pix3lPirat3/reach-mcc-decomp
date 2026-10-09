@@ -1,7 +1,7 @@
-#include "dispatch_6de38.hpp"
+#include "scan_identity_count_and_request_quota_delta.hpp"
 
 namespace hum::reach::recon390 {
-void body_6de38(Registers& r, const Dependencies& d, std::uint64_t module_base) {
+void scan_identity_count_and_request_quota_delta(Registers& r, const Dependencies& d, std::uint64_t module_base) {
     const auto variant = r.rcx;
     const auto index_bits = static_cast<std::uint32_t>(r.rdx);
 
