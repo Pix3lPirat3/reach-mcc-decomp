@@ -1,0 +1,52 @@
+using word32 = unsigned int;
+static_assert(sizeof(word32) == 4);
+extern "C" word32 map_identifier_mapping_native(word32 identifier) noexcept {
+    word32 result = 0xffffffffu;
+    switch (identifier) {
+    case 0x3e8u: result = 0xc4u; break;
+    case 0x3fcu: result = 0xc0u; break;
+    case 0x40bu: result = 0xbeu; break;
+    case 0x410u: result = 0xc5u; break;
+    case 0x41fu: result = 0xc1u; break;
+    case 0x438u: result = 0xbfu; break;
+    case 0x47eu: result = 0xc2u; break;
+    case 0x4b0u: result = 0xc3u; break;
+    case 0x5dcu: result = 0xc9u; break;
+    case 0x5e6u: result = 0xcau; break;
+    case 0x7d1u: result = 0xc6u; break;
+    case 0x7d2u: result = 0xc7u; break;
+    case 0x7d4u: result = 0xc8u; break;
+    case 0xbbeu: result = 0xd1u; break;
+    case 0x138du: result = 0xb2u; break;
+    case 0x1392u: result = 0xb3u; break;
+    case 0x139cu: result = 0xb4u; break;
+    case 0x13a6u: result = 0xb5u; break;
+    case 0x13abu: result = 0xb6u; break;
+    case 0x13b5u: result = 0xb7u; break;
+    case 0x13bau: result = 0xb8u; break;
+    case 0x13bcu: result = 0xb9u; break;
+    case 0x13c4u: result = 0xbau; break;
+    case 0x13ceu: result = 0xbbu; break;
+    case 0x13d3u: result = 0xbcu; break;
+    case 0x13d8u: result = 0xbdu; break;
+    case 0x1b58u: result = 0xd8u; break;
+    case 0x1b6cu: result = 0xd4u; break;
+    case 0x1b76u: result = 0xd7u; break;
+    case 0x1b80u: result = 0xd9u; break;
+    case 0x1b94u: result = 0xd2u; break;
+    case 0x1ba8u: result = 0xd6u; break;
+    case 0x1bc6u: result = 0xd3u; break;
+    case 0x1bdau: result = 0xd5u; break;
+    case 0x1d4cu: result = 0xdau; break;
+    case 0x271au: result = 0xccu; break;
+    case 0x2724u: result = 0xcbu; break;
+    case 0x272eu: result = 0xcdu; break;
+    case 0x2742u: result = 0xd0u; break;
+    case 0x274cu: result = 0xcfu; break;
+    case 0x2756u: result = 0xceu; break;
+    case 0x2760u: result = 0xdbu; break;
+    case 0xfffffffeu: result = 0xfffffffdu; break;
+    default: break;
+    }
+    return result;
+}
