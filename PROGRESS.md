@@ -31,6 +31,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/bitstream/setup.hpp](src/bitstream/setup.hpp) | 0 | In progress |
 | [src/common/datum&#95;lookup.cpp](src/common/datum_lookup.cpp) | 0 | In progress |
 | [src/common/datum&#95;lookup.hpp](src/common/datum_lookup.hpp) | 0 | In progress |
+| [src/common/indexed&#95;scalar&#95;output&#95;native.cpp](src/common/indexed_scalar_output_native.cpp) | 77 | Matched contribution |
 | [src/common/synchronization&#95;pair.hpp](src/common/synchronization_pair.hpp) | 0 | In progress |
 | [src/map&#95;variant/axes/decode&#95;tail.hpp](src/map_variant/axes/decode_tail.hpp) | 0 | In progress |
 | [src/map&#95;variant/chunks/decode&#95;chunk.cpp](src/map_variant/chunks/decode_chunk.cpp) | 0 | In progress |
