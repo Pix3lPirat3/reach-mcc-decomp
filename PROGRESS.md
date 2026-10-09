@@ -132,6 +132,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/memory/datum&#95;release.cpp](src/memory/datum_release.cpp) | 0 | In progress |
 | [src/memory/datum&#95;release.hpp](src/memory/datum_release.hpp) | 0 | In progress |
 | [src/memory/identifier&#95;nonzero&#95;native.cpp](src/memory/identifier_nonzero_native.cpp) | 112 | Matched contribution |
+| [src/memory/pool&#95;block&#95;unlink&#95;native.cpp](src/memory/pool_block_unlink_native.cpp) | 76 | Matched contribution |
 | [src/memory/pool&#95;release.cpp](src/memory/pool_release.cpp) | 0 | In progress |
 | [src/memory/pool&#95;release.hpp](src/memory/pool_release.hpp) | 0 | In progress |
 | [src/memory/relative&#95;heap&#95;resize.cpp](src/memory/relative_heap_resize.cpp) | 0 | In progress |
