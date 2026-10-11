@@ -574,7 +574,6 @@ rva,size,name,confidence
 0x43750,84,players_dispose_from_old_map,inferred
 0x46a34,146,player_action_update_init,inferred
 0x46e6c,484,player_valid_flag_sync_with_simulation,inferred
-0x47050,2537,cinematic_skipped_event_log,supported
 0x486e8,115,player_in_game_get,inferred
 0x499d4,239,zone_set_trigger_volume_enable,inferred
 0x49ac4,,unit_night_vision_on,inferred
@@ -1132,7 +1131,6 @@ rva,size,name,confidence
 0x102f4c,63,content_header_set_description,supported
 0x102f8c,353,content_header_sanitize,inferred
 0x103174,1217,content_header_write_bits,supported
-0x103850,82,content_header_time_normalize,inferred
 0x103cc0,171,player_set_loadout,inferred
 0x106288,18,std_vector_throw_length_error,supported
 0x106498,432,std_list_insert_node_checked,inferred
@@ -2990,7 +2988,6 @@ rva,size,name,confidence
 0x2c3cf4,,chud_release_game_state_block_at_2c3cf4,inferred
 0x2c3d20,129,chud_2_allocate_game_state_block,inferred
 0x2c44f0,68,chud_player_post_message,inferred
-0x2c5fd4,78,player_index_to_game_slot_lookup,inferred
 0x2c67b0,422,ui_localized_date_tokens_register,supported
 0x2c6bc4,380,first_person_weapons_initialize,supported
 0x2c6d40,23,first_person_weapons_initialize_for_new_map,inferred
@@ -4334,7 +4331,6 @@ rva,size,name,confidence
 0x439758,47,simulation_object_entity_decode_creation_data_generic,inferred
 0x4398d0,,item_entity_encode_state_update,inferred
 0x4398d8,,item_entity_decode_state_update,inferred
-0x43bae8,851,network_bitstream_message_discard_log,inferred
 0x43c9e4,269,initialize_replication_registry_and_reference_ranges,inferred
 0x43caf4,344,allocate_replication_registry_entity,inferred
 0x43cc4c,381,world_entity_slot_release_by_index,inferred
@@ -4523,7 +4519,6 @@ rva,size,name,confidence
 0x460b18,175,projectile_entity_compute_changed_state_mask,inferred
 0x460bf4,667,projectile_entity_create_object_from_state,inferred
 0x460eac,80,projectile_entity_apply_state_to_object,inferred
-0x460efc,184,projectile_entity_destroy_cleanup,inferred
 0x461010,76,projectile_entity_describe_creation_relevance,supported
 0x46105c,437,projectile_entity_encode_creation_data,inferred
 0x461214,362,projectile_entity_decode_creation_data,inferred
@@ -4671,7 +4666,6 @@ rva,size,name,confidence
 0x46c990,422,object_set_transform_and_relink,inferred
 0x46cc34,137,object_set_countdown_ticks_word_0xe8,inferred
 0x46cd64,182,object_set_velocities_and_wake,inferred
-0x46cf24,848,object_move_with_collision_and_notify,inferred
 0x46d274,209,scenario_find_object_placement_by_identifier,inferred
 0x46d348,920,object_new_apply_scenario_placement,inferred
 0x46d6e0,4516,object_new,inferred
@@ -4858,7 +4852,6 @@ rva,size,name,confidence
 0x49a978,335,unit_set_damage_reaction_record,inferred
 0x49ac18,239,unit_get_damage_reaction_duration,inferred
 0x49ad08,1208,ai_stimulus_notify_on_damage,inferred
-0x49b7d4,409,unit_find_damage_reaction_animation_entry,inferred
 0x49bb84,,object_apply_definition_default_state,inferred
 0x49bdf8,,object_placement_globals_publish_state_pointer,inferred
 0x49be18,205,object_placement_initialize,supported
@@ -7776,14 +7769,12 @@ rva,size,name,confidence
 0x697230,163,ai_squad_unlink_unit_from_member_list,inferred
 0x6973ac,633,ai_squad_groups_update,inferred
 0x697ec0,105,squad_get_start_location_data,inferred
-0x697f2c,,squad_get_scenario_squad_definition,inferred
 0x698384,,ai_squad_spawn_count_randomize,inferred
 0x698460,,ai_start_location_priority_compare,inferred
 0x698524,328,ai_squad_release_actor_slots,inferred
 0x69866c,127,ai_squad_release_actor_slots_zone,inferred
 0x6986ec,342,ai_squad_actor_added_update,inferred
 0x698844,551,ai_squad_actor_removed_update,inferred
-0x699214,1174,ai_squad_compute_start_location_counts,inferred
 0x69a8b4,173,ai_zone_area_get_point_range,inferred
 0x69a964,1402,ai_squad_generate_zone_area_positions,inferred
 0x69c068,,ai_squad_iterator_begin,inferred
@@ -7839,8 +7830,6 @@ rva,size,name,confidence
 0x6a565c,399,ai_unit_request_initial_weapon,inferred
 0x6a57ec,867,ai_unit_apply_spawn_vitality_and_weapons,inferred
 0x6a5b50,476,ai_actor_find_blocking_actor_at_spawn,inferred
-0x6a5e10,112,ai_unit_spawn_adjust_position_wrapper,inferred
-0x6a5e80,1751,ai_unit_spawn_adjust_position,inferred
 0x6a6558,227,ai_bring_forward_pick_position,inferred
 0x6a663c,94,ai_bring_forward_internal,inferred
 0x6a6848,140,ai_spawn_point_record_clear,inferred
@@ -7898,7 +7887,6 @@ rva,size,name,confidence
 0x6b06f4,273,cs_run_command_script_internal,inferred
 0x6b0808,181,cs_stack_command_script_internal,inferred
 0x6b08c0,158,cs_queue_command_script_internal,inferred
-0x6b0960,407,ai_command_script_attach_actor,inferred
 0x6b13c4,1329,vs_cast_internal,inferred
 0x6b1c3c,508,command_script_for_each_slot,inferred
 0x6b1e38,39,command_script_slot_state_clear,inferred
@@ -8043,7 +8031,6 @@ rva,size,name,confidence
 0x6c3b68,382,ai_behavior_composite_act_resume,inferred
 0x6c3ce8,462,ai_behavior_composite_act_retry,inferred
 0x6c3eb8,372,ai_behavior_composite_act,supported
-0x6c4384,201,ai_actor_init_spawn_location,inferred
 0x6c4c9c,,actor_behavior_stack_get_state_template,inferred
 0x6c5034,80,ai_behavior_b8_sync_action_begin,inferred
 0x6c5084,76,ai_behavior_b8_sync_action_end,inferred
@@ -8064,7 +8051,6 @@ rva,size,name,confidence
 0x6c7384,1018,ai_behavior_20_combat_charge_evaluate,inferred
 0x6c7780,2553,ai_behavior_20_combat_charge_act0,inferred
 0x6c817c,145,ai_behavior_20_combat_charge_act1,inferred
-0x6c8210,205,ai_actor_ability_table_check,inferred
 0x6c82e0,750,ai_actor_charge_start_move,inferred
 0x6c85d0,451,ai_behavior_20_combat_charge_begin,inferred
 0x6c8794,,ai_behavior_20_combat_charge_end,inferred
@@ -8203,7 +8189,6 @@ rva,size,name,confidence
 0x6e2448,292,ai_behavior_stuck_act1,inferred
 0x6e3e98,728,ai_behavior_camo_by_task_select,inferred
 0x6e5848,840,ai_behavior_idle_look_select,inferred
-0x6e5b90,345,ai_behavior_idle_gesture_select,inferred
 0x6e5f78,,ai_behavior_idle_look_trigger_select,inferred
 0x6e5fc0,825,ai_actor_object_destination_path_record,inferred
 0x6e62fc,716,ai_behavior_move_to_object_select,inferred
@@ -8421,7 +8406,6 @@ rva,size,name,confidence
 0x6ff7a4,,ai_objective_task_squad_iterator_next,inferred
 0x6ff814,169,ai_objective_task_squad_iterator_begin,inferred
 0x6ff8c0,180,ai_objective_task_squad_iterator_begin_alt,inferred
-0x6ff974,,ai_squad_task_dirty_flag_set,inferred
 0x6ff9e0,,ai_task_records_state_unregister,inferred
 0x6ffa0c,129,ai_task_records_state_register,inferred
 0x6ffa90,,ai_objectives_state_unregister,inferred
@@ -8451,10 +8435,8 @@ rva,size,name,confidence
 0x70671c,235,ai_angle_to_cone_bucket,inferred
 0x706cbc,648,ai_prop_ref_compute_target_motion_angle,inferred
 0x707a88,237,prop_ref_update_ai_scale_timer,inferred
-0x707b78,3528,ai_actor_set_team_and_update_props,inferred
 0x709310,579,ai_prop_ref_tracking_range_update,inferred
 0x7098c4,174,ai_unit_has_boarding_seat,inferred
-0x709974,236,ai_unit_vehicle_boarding_check,inferred
 0x709a60,75,ai_actor_unit_is_vehicle_boarding,inferred
 0x709cc8,135,actor_set_target_prop,inferred
 0x709d50,124,prop_ref_mark_updated_and_notify,inferred
@@ -8479,7 +8461,6 @@ rva,size,name,confidence
 0x70cd38,188,squad_patrol_get_next_point_handle,inferred
 0x70cdf4,188,ai_actors_any_ready_for_patrol,inferred
 0x70d3c4,2002,squad_patrol_advance_waypoint,inferred
-0x70e784,989,squad_patrol_record_clear,inferred
 0x70ef40,517,squad_patrol_point_ref_validate,inferred
 0x70f148,,squad_patrol_publication_unregister,inferred
 0x70f174,129,squad_patrol_publication_register,inferred
@@ -8547,7 +8528,6 @@ rva,size,name,confidence
 0x716544,89,actor_action_stop_if_idle,inferred
 0x7165a0,281,actor_unit_is_driver_of_vehicle_type,inferred
 0x716c5c,337,ai_actor_ground_move_distance_helper,inferred
-0x716db0,236,ai_actor_ground_move_hand_helper,inferred
 0x716f68,3120,ai_actor_ground_move_solve,inferred
 0x717b98,487,actor_path_point_find_index_for_sector,inferred
 0x717d80,304,math_rotate_2d_by_unit_vector,inferred
@@ -8685,7 +8665,6 @@ rva,size,name,confidence
 0x7321f8,749,ai_path_edge_cost_helper,inferred
 0x7324e8,749,ai_path_edge_cost_evaluate,inferred
 0x732eb4,797,ai_path_waypoint_local_to_world,inferred
-0x733440,409,ai_actor_marker_candidate_select,inferred
 0x7349c0,284,ai_destination_trace_path_build,inferred
 0x735bbc,66,ai_clump_game_state_datum_array_rebind,inferred
 0x739c78,,ai_clump_small_helper_a,inferred

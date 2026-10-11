@@ -144,6 +144,7 @@ rva,size,name,match,basis
 0x46274,199,players_coop_desire_respawn,medium,layout
 0x4633c,1784,players_coop_update_respawn,medium,layout
 0x46ce4,,player_action_merge,medium,layout
+0x47050,2537,players_update_before_game,medium,string
 0x47a3c,1539,player_update_after_game,medium,layout_and_constants
 0x48040,1237,players_update_after_game,medium,layout
 0x48518,205,players_calculate_safe_position,medium,layout
@@ -656,6 +657,7 @@ rva,size,name,match,basis
 0x102d20,158,content_item_metadata_modify,medium,layout
 0x102dc0,116,content_item_metadata_create_or_modify,medium,layout
 0x103638,487,content_item_metadata_decode,medium,layout
+0x103850,82,clean_history_strings,high,layout
 0x1038a4,193,encode_history,medium,layout_and_constants
 0x103968,91,decode_history,high,layout
 0x103a30,93,game_engine_settings_ai_traits_get_by_name,medium,layout
@@ -1715,6 +1717,7 @@ rva,size,name,match,basis
 0x2c53ac,211,chud_get_string_for_player,medium,layout
 0x2c54c8,101,chud_set_state_text,medium,layout
 0x2c5530,2544,chud_post_action_response,medium,layout_and_constants
+0x2c5fd4,78,user_interface_global_string_get,medium,layout
 0x2c6074,105,user_interface_global_string_get_and_parse_xml,medium,layout
 0x2c63d8,359,user_interface_update_main_menu_character_model,medium,layout
 0x2c6958,473,user_interface_get_timespan_string,medium,layout_and_constants
@@ -2363,6 +2366,7 @@ rva,size,name,match,basis
 0x439cac,477,c_simulation_item_entity_definition__item_update_decode,medium,layout
 0x43b158,512,c_network_channel__allocate,medium,layout_and_constants
 0x43b358,419,c_network_channel__open,medium,layout
+0x43bae8,851,c_network_channel__receive_packet,medium,layout
 0x43ce9c,283,c_replication_entity_manager__make_all_local,medium,layout
 0x43d8a0,264,simulation_queue_event_insert,medium,layout
 0x43e264,382,simulation_queue_entity_deletion_insert,medium,layout
@@ -2425,6 +2429,7 @@ rva,size,name,match,basis
 0x45f4f0,269,c_simulation_generic_entity_definition__entity_state_lossy_compare,medium,layout_and_constants
 0x45f600,176,c_simulation_generic_entity_definition__object_get_rigid_body_mask,medium,layout
 0x460588,143,c_simulation_vehicle_entity_definition__entity_state_lossy_compare,high,layout_and_constants
+0x460efc,184,c_simulation_projectile_entity_definition__promote_object_to_authority,high,layout_and_constants
 0x460fb4,92,c_simulation_projectile_entity_definition__entity_can_be_created,high,layout
 0x461724,266,projectile_attached_event_data_encode,medium,layout
 0x4618e0,516,projectile_attached_event_data_apply,medium,layout
@@ -2448,6 +2453,7 @@ rva,size,name,match,basis
 0x46c8b4,220,object_reset,medium,layout
 0x46cb38,249,object_set_position_direct,medium,layout
 0x46ce1c,75,object_set_desired_velocities,medium,layout
+0x46cf24,848,object_apply_acceleration,medium,layout
 0x46ebbc,276,object_reinitialize_from_placement,medium,layout
 0x46f6f4,103,object_disconnect_from_physics,medium,layout
 0x46f75c,115,object_reconnect_to_physics,medium,layout_and_constants
@@ -2623,6 +2629,7 @@ rva,size,name,match,basis
 0x499a4c,317,light_find_valid_point,medium,layout
 0x49a3dc,857,unit_can_vocalize,medium,layout
 0x49aac8,270,unit_notify_impulse_sound,medium,layout
+0x49b7d4,409,unit_dialog_pick_deterministic_sound_permutation,medium,layout_and_constants
 0x49b9c8,310,static_init_k_network_session_parameters_matchmaking_mask_49b9c8,medium,layout_and_constants
 0x49c448,904,object_placement_data_new_from_scenario_object,medium,layout_and_constants
 0x49cdb8,,object_placement_data_copy_change_colors,medium,layout
@@ -3088,12 +3095,14 @@ rva,size,name,match,basis
 0x697628,85,squads_update_dirty_status,medium,layout
 0x697680,1277,squads_test_activation,medium,layout
 0x697e68,87,squad_clear_arrived,medium,layout
+0x697f2c,,squad_get_objective,medium,layout
 0x697f78,1033,squad_update_status,medium,layout
 0x6984c8,90,squad_force_activate,medium,layout
 0x698a6c,116,squadless_attach_actor,medium,layout
 0x698f28,57,squad_following,medium,layout
 0x698f64,247,squad_should_use_dynamic_areas,medium,layout
 0x69905c,438,get_player_front_area_yaw,medium,layout
+0x699214,1174,calculate_dynamic_areas,medium,layout_and_constants
 0x699894,290,front_generate_from_area,medium,layout
 0x69aee0,1338,calculate_front_areas,medium,layout_and_constants
 0x69b8d0,622,squad_adoption_distance_to_actor,medium,layout
@@ -3112,6 +3121,8 @@ rva,size,name,match,basis
 0x6a2754,803,dialogue_find_speaker_joint,medium,layout_and_constants
 0x6a49bc,66,tls_set_g_actor_data_allocator,medium,layout
 0x6a5d2c,228,actor_select_voice,medium,layout
+0x6a5e10,112,character_select_voice,medium,layout
+0x6a5e80,1751,actor_select_character_voice_internal,medium,layout_and_constants
 0x6a67c4,131,actor_unit_can_be_assassinated,medium,layout
 0x6a7a50,485,actor_spawn_death_character,medium,layout
 0x6a8108,226,actor_runtime_within_structure_bsp,medium,layout
@@ -3153,6 +3164,7 @@ rva,size,name,match,basis
 0x6b0070,66,cs_dispose_from_old_map,medium,layout
 0x6b0468,246,cs_is_running_on_actor,medium,layout
 0x6b0560,229,cs_blocked,medium,layout
+0x6b0960,407,cs_remove_command_script,medium,layout
 0x6b0b94,340,cs_reserve,medium,layout
 0x6b0ce8,841,actor_can_fill_role,medium,layout
 0x6b1034,910,cs_cast_internal,medium,layout
@@ -3171,6 +3183,7 @@ rva,size,name,match,basis
 0x6bcc74,355,actor_set_current_firing_position,medium,layout
 0x6bd6dc,248,object_index_from_ai,high,layout_and_constants
 0x6c4110,626,generate_style_vector,medium,layout
+0x6c4384,201,actor_get_root_behavior,medium,layout_and_constants
 0x6c4450,1094,action_selection,medium,layout
 0x6c4944,684,behavior_change,medium,layout
 0x6c5368,25,behavior_go_to_activate,medium,layout
@@ -3185,6 +3198,7 @@ rva,size,name,match,basis
 0x6c6b20,434,shield_depleted_berserk_get_impulse,medium,layout
 0x6c6f00,306,leader_abandoned_charge_get_impulse,medium,layout
 0x6c711c,95,stuck_with_grenade_berserk_get_impulse,high,layout
+0x6c8210,205,charge_get_melee_range_and_ticks,medium,layout
 0x6c8a24,2214,behavior_melee_leaping_charge_perform,medium,layout_and_constants
 0x6c9394,171,behavior_melee_leaping_charge_activate,medium,layout
 0x6c9440,,behavior_melee_leaping_charge_deactivate,medium,layout
@@ -3293,6 +3307,7 @@ rva,size,name,match,basis
 0x6e4e58,706,object_interact,medium,layout
 0x6e51fc,426,behavior_interact_object_perform,medium,layout_and_constants
 0x6e54ec,705,impulse_find_throw_interaction_object_get_impulse,medium,layout
+0x6e5b90,345,boost_allies_get_impulse,medium,layout
 0x6e5cec,273,behavior_engineer_explode_activate,medium,layout_and_constants
 0x6e5e7c,251,behavior_engineer_explode_control,medium,layout_and_constants
 0x6e672c,292,submit_sync_action_6e672c,medium,layout
@@ -3348,6 +3363,7 @@ rva,size,name,match,basis
 0x6fdce4,252,objective_task_get_area_yaw,medium,layout
 0x6fdde0,175,objective_get_count,medium,layout
 0x6febc8,502,task_update,medium,layout_and_constants
+0x6ff974,,objective_task_is_vehicle_task,medium,layout
 0x6ffd18,1466,path_state_estimated_distance,medium,layout
 0x7002d4,1414,path_state_build_path,medium,layout_and_constants
 0x7019c4,1861,build_raw_path,medium,layout
@@ -3360,9 +3376,11 @@ rva,size,name,match,basis
 0x707304,722,prop_hologram_status_refresh,medium,layout
 0x7075d8,1029,prop_status_refresh,medium,layout
 0x7079e0,168,actor_perception_unreachable,medium,layout
+0x707b78,3528,actor_compute_prop_salience,medium,layout_and_constants
 0x708940,1015,actor_combat_status_update,high,layout
 0x708d38,1496,actor_situation_update,medium,layout
 0x709554,880,actor_get_inherent_scariness,medium,layout_and_constants
+0x709974,236,unit_has_scary_weapon,medium,layout
 0x709aac,539,actor_perception_dialogue_handle_target_changed,medium,layout_and_constants
 0x70a080,1112,actor_emotion_update,medium,layout
 0x70a6ec,451,get_active_camouflage_perception,medium,layout
@@ -3375,6 +3393,7 @@ rva,size,name,match,basis
 0x70ceb0,542,squad_patrol_member_attempt_pass_through,medium,layout
 0x70d0d0,755,squad_patrol_update_stragglers,medium,layout
 0x70e080,1793,squad_patrol_member_select_point,medium,layout_and_constants
+0x70e784,989,squad_patrol_member_assign_to_point,medium,layout
 0x70eb64,987,actor_transition_data_update,medium,layout
 0x711b14,246,test_actor_audibility,medium,layout
 0x711f8c,415,clump_handle_sound,medium,layout
@@ -3392,6 +3411,7 @@ rva,size,name,match,basis
 0x714cc0,1790,actor_moving_calculate_stopping_distance,medium,layout_and_constants
 0x7153c0,566,actor_move,medium,layout
 0x7166bc,1437,actor_move_calculate_climbing_movement,medium,layout
+0x716db0,236,actor_test_jump,medium,layout
 0x716e9c,203,actor_moving_jump_716e9c,medium,layout
 0x71897c,2324,actor_path_refresh,medium,layout_and_constants
 0x719290,650,actor_path_input_new,medium,layout
@@ -3454,6 +3474,7 @@ rva,size,name,match,basis
 0x731a74,204,swarm_spawner_new_creature,medium,layout
 0x731e14,324,actor_get_character_definition_properties_731e14,medium,layout_and_constants
 0x7321a0,85,ai_handle_interaction_failure,medium,layout
+0x733440,409,ai_hint_get_best_hoist_action_height,medium,layout
 0x7339e4,1049,ai_hint_get_maneuver_point,medium,layout_and_constants
 0x733e00,161,ai_hint_get_vault_markers,medium,layout_and_constants
 0x733ea4,730,ai_hint_find_vault_marker,medium,layout
