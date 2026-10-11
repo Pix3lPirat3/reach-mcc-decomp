@@ -1,6 +1,6 @@
 # MCC Reach
 
-Executable-byte matching: 6,409/9,555,456 bytes (0.067071%).
+Executable-byte matching: 12,090/9,555,456 bytes (0.126524%).
 
 [File progress](PROGRESS.md)
 

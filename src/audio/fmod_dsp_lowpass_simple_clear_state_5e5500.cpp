@@ -1,0 +1,77 @@
+struct int_pair {
+    float first;
+    float second;
+};
+
+struct lowpass_simple_state {
+    unsigned char reserved_0[0x214];
+    int_pair history[32];
+};
+
+extern "C" int fmod_dsp_lowpass_simple_clear_state_5e5500(lowpass_simple_state* state) {
+    state->history[0].first = 0;
+    state->history[0].second = 0;
+    state->history[1].first = 0;
+    state->history[1].second = 0;
+    state->history[2].first = 0;
+    state->history[2].second = 0;
+    state->history[3].first = 0;
+    state->history[3].second = 0;
+    state->history[4].first = 0;
+    state->history[4].second = 0;
+    state->history[5].first = 0;
+    state->history[5].second = 0;
+    state->history[6].first = 0;
+    state->history[6].second = 0;
+    state->history[7].first = 0;
+    state->history[7].second = 0;
+    state->history[8].first = 0;
+    state->history[8].second = 0;
+    state->history[9].first = 0;
+    state->history[9].second = 0;
+    state->history[10].first = 0;
+    state->history[10].second = 0;
+    state->history[11].first = 0;
+    state->history[11].second = 0;
+    state->history[12].first = 0;
+    state->history[12].second = 0;
+    state->history[13].first = 0;
+    state->history[13].second = 0;
+    state->history[14].first = 0;
+    state->history[14].second = 0;
+    state->history[15].first = 0;
+    state->history[15].second = 0;
+    state->history[16].first = 0;
+    state->history[16].second = 0;
+    state->history[17].first = 0;
+    state->history[17].second = 0;
+    state->history[18].first = 0;
+    state->history[18].second = 0;
+    state->history[19].first = 0;
+    state->history[19].second = 0;
+    state->history[20].first = 0;
+    state->history[20].second = 0;
+    state->history[21].first = 0;
+    state->history[21].second = 0;
+    state->history[22].first = 0;
+    state->history[22].second = 0;
+    state->history[23].first = 0;
+    state->history[23].second = 0;
+    state->history[24].first = 0;
+    state->history[24].second = 0;
+    state->history[25].first = 0;
+    state->history[25].second = 0;
+    state->history[26].first = 0;
+    state->history[26].second = 0;
+    state->history[27].first = 0;
+    state->history[27].second = 0;
+    state->history[28].first = 0;
+    state->history[28].second = 0;
+    state->history[29].first = 0;
+    state->history[29].second = 0;
+    state->history[30].first = 0;
+    state->history[30].second = 0;
+    state->history[31].first = 0;
+    state->history[31].second = 0;
+    return 0;
+}
