@@ -1951,13 +1951,16 @@ rva,size,name,confidence
 0x17b4ac,312,vector3d_encode_to_quantized_cube_index,supported
 0x17b5e4,335,vector3d_decode_from_quantized_cube_index,inferred
 0x17b8d0,271,candy_monitor_register_object,inferred
-0x17bb54,417,candy_spawner_update,inferred
-0x17c094,530,candy_monitor_manager_update,inferred
+0x17bb54,417,forge_respawn_spawner_entry_update,supported
+0x17c094,530,forge_respawn_manager_update,supported
 0x17c168,,respawn_manager_table_update,inferred
 0x17c2a8,544,candy_monitor_manager_monitor_object,inferred
 0x17c830,,candy_monitor_try_and_get_by_object_handle,inferred
-0x17cb04,380,candy_object_displacement_predicate,inferred
+0x17c980,291,forge_respawn_delete_limit_seconds,supported
+0x17cb04,380,forge_object_displaced_from_home,supported
 0x17cc80,346,respawn_object_state_test,supported
+0x17ce50,222,forge_any_player_within_distance,supported
+0x17cf30,459,forge_any_player_aiming_at_sphere,supported
 0x17d0fc,145,unit_has_any_occupant,inferred
 0x17d2ac,139,hk_scalar_deleting_destructor_vtbl_180996c88_17d2ac,inferred
 0x17d338,108,hk_scalar_deleting_destructor_vtbl_1809e76f0,inferred
@@ -3261,6 +3264,7 @@ rva,size,name,confidence
 0x1c9974,129,ragdolls_allocate_game_state_block,inferred
 0x1c9d8c,150,hk_critical_section_array_holder_destructor_vtbl_180a2d7a0,supported
 0x1ca4c8,98,hkp_broad_phase_border_scalar_deleting_destructor,supported
+0x1ca52c,104,havok_broad_phase_border_max_position_exceeded_callback,supported
 0x1ca720,85,hk_scalar_deleting_destructor_vtbl_180996c88_1ca720,inferred
 0x1ca790,81,hk_array_clear_and_deallocate_elem8,inferred
 0x1ca814,81,hk_scalar_deleting_destructor_wrapping_881da0,supported
@@ -7559,6 +7563,7 @@ rva,size,name,confidence
 0x4ac454,107,unit_action_slot_call_state_change_handler,inferred
 0x4ac4c0,163,unit_action_slots_stop_all,inferred
 0x4ac564,269,unit_action_slot_stop,inferred
+0x4ac750,189,object_wake_stamp_last_active_tick,supported
 0x4ac810,111,object_mover_program_call_slot_0x38,inferred
 0x4ac8c4,113,object_mover_program_call_slot_0x40,inferred
 0x4ac938,111,unit_mover_program_call_slot_0x48,supported
@@ -8022,7 +8027,6 @@ rva,size,name,confidence
 0x500064,98,giant_hook_0xa8,inferred
 0x5000c8,156,object_buckling_magnitude_get_internal,inferred
 0x50190c,305,giant_hook_0x118,inferred
-0x504680,,unit_action_return_self_for_action_0x1d,inferred
 0x5046a4,109,unit_weapon_slot_is_overheated,inferred
 0x504714,113,unit_weapon_slot_state_word_in_1_to_2,inferred
 0x504978,261,unit_stow_weapon_slot,inferred
@@ -12688,7 +12692,7 @@ rva,size,name,confidence
 0x79f290,,EVP_MD_CTX_test_flags,inferred
 0x79f2a0,35,EVP_CIPHER_meth_free,supported
 0x79f2d0,65,EVP_CIPHER_meth_new,supported
-0x79f320,,EVP_CIPHER_meth_set_flags,inferred
+0x79f320,,EVP_MD_meth_set_app_datasize,inferred
 0x79f330,,EVP_MD_meth_set_final,inferred
 0x79f340,,EVP_MD_meth_set_flags,inferred
 0x79f350,,EVP_MD_meth_set_init,inferred
@@ -15745,7 +15749,6 @@ rva,size,name,confidence
 0x86ca20,,hkMemoryRouter,supported
 0x86caa0,242,hk_referenced_object_remove_references_array,inferred
 0x86cba0,230,hk_referenced_object_remove_references_strided,inferred
-0x86cc90,,hkReferencedObject,inferred
 0x86ccf0,81,hk_referenced_object_lock_all,inferred
 0x86cde0,20,hkReferencedObject,inferred
 0x86ceb0,49,hkReferencedObject,inferred
@@ -15854,7 +15857,6 @@ rva,size,name,confidence
 0x8711e0,,hk_size_class_allocator_buf_alloc,inferred
 0x871200,,hk_size_class_allocator_block_free,inferred
 0x871290,,hk_size_class_allocator_alloc,inferred
-0x871320,,hk_region_allocator_update_total_bytes,inferred
 0x871340,,hk_region_allocator_get_memory_statistics,inferred
 0x871380,,hk_region_allocator_can_allocate,inferred
 0x8713a0,469,hk_region_allocator_block_free,inferred
@@ -16018,7 +16020,6 @@ rva,size,name,confidence
 0x8778fb,608,hk_large_block_allocator_alloc_chunk_8778fb,inferred
 0x877b70,79,hk_large_block_allocator_alloc_from_bins,inferred
 0x877bd0,186,hk_large_block_allocator_grow,inferred
-0x877c90,,hk_large_block_allocator_account_free_chunk,inferred
 0x877ce0,,hk_large_block_allocator_mark_top_chunk,inferred
 0x877d10,80,hk_large_block_allocator_find_largest_bin,inferred
 0x877d70,,hk_large_block_allocator_max_chunk_size,inferred
@@ -17060,7 +17061,6 @@ rva,size,name,confidence
 0x8b4600,406,hkpLimitedHingeConstraintData_construct,inferred
 0x8b47a0,736,hkpStiffSpringConstraintData_set_in_body_space,inferred
 0x8b4a90,64,hkpStiffSpringConstraintData_set_motor,inferred
-0x8b4ae0,,hkpStiffSpringConstraintData_set_motors_enabled_flag,inferred
 0x8b4b00,,hkpStiffSpringConstraintData_getType,inferred
 0x8b4b10,,hkpStiffSpringConstraintData_isValid,inferred
 0x8b4b30,,hkpStiffSpringConstraintData_getRuntimeInfo,inferred

@@ -808,7 +808,6 @@ rva,size,name,match,basis
 0xdacd8,451,rumble_update,medium,layout
 0xdb030,225,rumble_player_clear_all,medium,layout
 0xdb19c,754,rumble_calculate,medium,layout_and_constants
-0xdb540,,c_datamine__dtor,medium,layout
 0xdb864,,game_difficulty_get_value,medium,layout
 0xdb8b8,170,game_difficulty_get_team_value,medium,layout
 0xdb964,265,game_coop_difficulty_get_multiplier,medium,layout
@@ -1413,7 +1412,6 @@ rva,size,name,match,basis
 0x17c64c,270,c_multiplayer_candy_monitor_manager__quotas_permit_spawn,medium,layout
 0x17c75c,210,c_multiplayer_candy_monitor_manager__try_to_spawn_new_object,medium,layout
 0x17c870,271,object_get_respawn_time_seconds,medium,layout
-0x17c980,291,scenario_object_is_significant,medium,layout_and_constants
 0x17caa4,,game_engine_object_is_item_in_inventory,medium,layout
 0x17cddc,115,game_engine_desires_garbage_collection,medium,layout
 0x17d190,108,game_engine_object_is_useless_weapon,medium,layout
@@ -1606,7 +1604,6 @@ rva,size,name,match,basis
 0x1ca21c,312,c_entity_listener__calculate_contact_point_properties,medium,layout
 0x1ca354,97,c_entity_listener__contactPointRemovedCallback,medium,layout
 0x1ca3b8,272,c_entity_listener__contactProcessCallback,medium,layout
-0x1ca52c,104,c_broad_phase_border__maxPositionExceededCallback,medium,layout
 0x1ca700,29,c_havok_error__message,medium,layout
 0x1cad5c,339,c_group_filter__colllision_early_out_asymetrical,medium,layout
 0x1caeb0,337,c_group_filter__collidable_b_evalulate_primitive_collision_group,medium,layout
@@ -1691,7 +1688,6 @@ rva,size,name,match,basis
 0x1dedf4,3924,c_flying_camera__update,medium,layout_and_constants
 0x1dfe10,619,c_dead_camera__set_target,medium,layout_and_constants
 0x1e007c,1020,c_dead_camera__update,medium,layout
-0x1e0484,,c_static_camera__ctor,medium,layout
 0x1e0834,2302,c_respawning_camera__update,medium,layout
 0x1e11fc,1036,respawning_camera_position_deterministic,medium,layout
 0x1e18d0,212,compute_t_from_pitch,medium,layout
@@ -1864,7 +1860,6 @@ rva,size,name,match,basis
 0x21482c,372,get_animation_rates_for_frame_range,medium,layout
 0x2149a0,436,compute_playback_speed_of_animation_from_desired_linear_velocity,medium,layout
 0x214fa8,639,compute_playback_speed_of_transition_from_current_linear_velocity,medium,layout
-0x215520,,c_animation_manager__get_graph,medium,layout
 0x215560,,get_default_animation_state_from_physics_animation_state,medium,layout_and_constants
 0x2155bc,319,get_most_recent_stride_frame_event,medium,layout
 0x215928,,c_pose_blend_channel__initialize,medium,layout
@@ -2958,7 +2953,6 @@ rva,size,name,match,basis
 0x3e0264,171,append_tag_parameters,medium,layout_and_constants
 0x3e03ec,,c_http_post_stream__set_source,medium,layout
 0x3e0840,213,c_http_get_stream__read,high,layout
-0x3e0920,,c_http_get_stream__unit_test,medium,layout
 0x3e0958,49,s_static_string__length,medium,layout_and_constants
 0x3e1f9c,594,c_network_session_parameters__check_to_send_change_requests,medium,layout_and_constants
 0x3e3674,338,c_network_session_parameters__check_to_send_low_priority_update_for_peer,medium,layout
@@ -3913,7 +3907,6 @@ rva,size,name,match,basis
 0x4fb780,24,c_aoe_damage_batchifier__dtor,high,layout
 0x4fc228,56,c_target_tracking_system__is_tracking,medium,layout_and_constants
 0x4fc260,56,c_target_tracking_system__is_locked,medium,layout_and_constants
-0x4fc298,32,c_target_tracking_system__get_locking_theta,medium,layout
 0x4fc2b8,107,c_target_tracking_system__get_target,medium,layout_and_constants
 0x4fc324,,target_tracking_system_has_tracking_type,medium,layout
 0x4fc8cc,462,creature_cause_attached_damage,medium,layout
@@ -4762,24 +4755,3 @@ rva,size,name,match,basis
 0x91adb6,,destruct,high,layout
 0x91adce,,c_havok_component__render_debug,medium,layout
 0x91ae16,,hkArray__clearAndDeallocate,medium,layout
-0x47050,2537,players_update_before_game,medium,string
-0x103850,82,clean_history_strings,high,layout
-0x2c5fd4,78,user_interface_global_string_get,medium,layout
-0x43bae8,851,c_network_channel__receive_packet,medium,layout
-0x460efc,184,c_simulation_projectile_entity_definition__promote_object_to_authority,high,layout_and_constants
-0x46cf24,848,object_apply_acceleration,medium,layout
-0x49b7d4,409,unit_dialog_pick_deterministic_sound_permutation,medium,layout_and_constants
-0x697f2c,,squad_get_objective,medium,layout
-0x699214,1174,calculate_dynamic_areas,medium,layout_and_constants
-0x6a5e10,112,character_select_voice,medium,layout
-0x6a5e80,1751,actor_select_character_voice_internal,medium,layout_and_constants
-0x6b0960,407,cs_remove_command_script,medium,layout
-0x6c4384,201,actor_get_root_behavior,medium,layout_and_constants
-0x6c8210,205,charge_get_melee_range_and_ticks,medium,layout
-0x6e5b90,345,boost_allies_get_impulse,medium,layout
-0x6ff974,,objective_task_is_vehicle_task,medium,layout
-0x707b78,3528,actor_compute_prop_salience,medium,layout_and_constants
-0x709974,236,unit_has_scary_weapon,medium,layout
-0x70e784,989,squad_patrol_member_assign_to_point,medium,layout
-0x716db0,236,actor_test_jump,medium,layout
-0x733440,409,ai_hint_get_best_hoist_action_height,medium,layout
