@@ -2205,7 +2205,6 @@ rva,size,name,match,basis
 0x3dd5a8,1232,network_banhammer_update_controllers,medium,layout_and_constants
 0x3de33c,346,c_http_buffer_downloader__does_cache_entry_need_to_be_updated,medium,layout_and_constants
 0x3de7b4,159,c_http_buffer_downloader__get_data,medium,layout
-0x3df60c,111,c_omaha_url_string_builder__append_parameter_arena_players,medium,layout
 0x3df67c,319,online_url_make_cache_key,medium,layout_and_constants
 0x3e0264,171,append_tag_parameters,medium,layout_and_constants
 0x3e03ec,,c_http_post_stream__set_source,medium,layout
