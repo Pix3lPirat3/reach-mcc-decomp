@@ -74,6 +74,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/map&#95;variant/payload/uncompressed&#95;list&#95;decode.cpp](src/map_variant/payload/uncompressed_list_decode.cpp) | 0 | In progress |
 | [src/map&#95;variant/payload/uncompressed&#95;list&#95;decode.hpp](src/map_variant/payload/uncompressed_list_decode.hpp) | 0 | In progress |
 | [src/map&#95;variant/placement&#95;allocator&#95;native.cpp](src/map_variant/placement_allocator_native.cpp) | 0 | In progress |
+| [src/map&#95;variant/placement&#95;init.cpp](src/map_variant/placement_init.cpp) | 66 | Matched contribution |
 | [src/map&#95;variant/placements/active&#95;position.hpp](src/map_variant/placements/active_position.hpp) | 0 | In progress |
 | [src/map&#95;variant/placements/active&#95;prefix.hpp](src/map_variant/placements/active_prefix.hpp) | 0 | In progress |
 | [src/map&#95;variant/placements/dependencies.cpp](src/map_variant/placements/dependencies.cpp) | 0 | In progress |
