@@ -36,6 +36,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/common/semaphore&#95;identifier&#95;dispatch&#95;native.cpp](src/common/semaphore_identifier_dispatch_native.cpp) | 55 | Matched contribution |
 | [src/common/synchronization&#95;pair.hpp](src/common/synchronization_pair.hpp) | 0 | In progress |
 | [src/map&#95;variant/axes/decode&#95;tail.hpp](src/map_variant/axes/decode_tail.hpp) | 0 | In progress |
+| [src/map&#95;variant/budget&#95;fraction.cpp](src/map_variant/budget_fraction.cpp) | 64 | Matched contribution |
 | [src/map&#95;variant/chunks/decode&#95;chunk.cpp](src/map_variant/chunks/decode_chunk.cpp) | 0 | In progress |
 | [src/map&#95;variant/chunks/decode&#95;chunk.hpp](src/map_variant/chunks/decode_chunk.hpp) | 0 | In progress |
 | [src/map&#95;variant/chunks/encode&#95;chunk.cpp](src/map_variant/chunks/encode_chunk.cpp) | 0 | In progress |
