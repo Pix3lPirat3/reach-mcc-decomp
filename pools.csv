@@ -1,0 +1,64 @@
+name,count,element_bytes,created_at
+beam,160,52,0x2011b4
+beam_location,160,48,0x2011b4
+beam_system,160,44,0x2011b4
+breakable surface set broken events,64,1128,0x15844c
+c_beam_gpu,160,16,0x2011b4
+c_beam_gpu::s_row,160,12,0x2011b4
+c_light_volume_gpu,160,16,0x1ffec8
+c_light_volume_gpu::s_row,160,12,0x1ffec8
+campaign insertions,64,5412,0x3cbb4
+campaign levels,64,1144,0x3cbb4
+campaigns,2,1304,0x3cbb4
+cheap_particle_emitters,200,44,0x115888
+collision hierarchy element headers,7168,48,0x14ffe0
+collision hierarchy node headers,6144,28,0x14ffe0
+contrail,160,76,0x115888
+contrail_location,160,96,0x115888
+contrail_profile,1,76,0x115888
+contrail_system,160,52,0x115888
+decal,2048,132,0x15cd0c
+decal_system,704,96,0x15cd0c
+det hs thread,320,1324,0x84948
+dynamic render targets,6,28,0x24fb2c
+effect,920,176,0x115888
+effect event,1800,20,0x115888
+effect geometry sample,128,40,0x115888
+effect location,1380,76,0x115888
+fire team,16,212,0x122e34
+firefight levels,64,1144,0x3cbb4
+havok components,1500,192,0x9919c
+havok contact points,1024,80,0x9919c
+havok proxies,16,80,0x164ad8
+hs globals,4096,8,0x84948
+impact arrarys,32,136,0x9919c
+impacts,32,4296,0x9919c
+lasing,20,104,0x1574a8
+light_volume,160,52,0x1ffec8
+light_volume_location,160,44,0x1ffec8
+light_volume_system,160,44,0x1ffec8
+lock hierarchy links,1024,20,0x15bb0
+lock hierarchy nodes,128,144,0x15bb0
+looping sounds,128,416,0xb35d0
+looping sounds restore state,128,40,0xb35d0
+megalo_objects,512,148,0x7853c
+multiplayer levels,50,1144,0x3cbb4
+non-det hs thread,4,1324,0x84948
+object list header,48,12,0x817ec
+object looping sounds,1024,40,0xb9618
+particle_emitter,832,148,0x115888
+particle_location,576,96,0x115888
+particle_system,576,84,0x115888
+particles,2048,140,0x115888
+players,16,1168,0x43440
+predicted data,200,8,0xcc1dc
+ragdolls,7,284,0x9919c
+recorded animations,1,184,0x1641f0
+screen_effect,64,44,0x15fe98
+sound playback controllers,64,28,0xb2cb0
+sound sources,384,256,0x24de0
+sound tracker data,384,72,0x24de0
+sounds effects,16,140,0x24de0
+terminal output,32,288,0xa5f3c
+water physics cache,96,156,0x93ed8
+xbox sound,512,64,0xad720
