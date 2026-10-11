@@ -2,6 +2,8 @@
 
 Names and notes for haloreach.dll, Master Chief Collection build 1.3528 (sha256 738dd2d24ea3aea12e1ee9aa4a61094bf116027d42004c35a19e5048608b0894). The source reconstruction is on the main branch.
 
+All addresses, sizes and counts are for the unmodified game file. Changed copies of the game file keep the same addresses for code that was not edited.
+
 Files:
 
 - symbols.csv: one line per named function. Columns are address (RVA), size in bytes (blank when unknown), name, and confidence.
@@ -12,5 +14,7 @@ Confidence:
 
 - supported: a text string, a constant or a direct call shows the name.
 - inferred: the name follows from who calls the function and what it touches.
+
+A few lines with a blank size are data tables, not code.
 
 Not every name is sure. Functions with no line in symbols.csv are not named yet.
