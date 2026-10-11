@@ -8,7 +8,7 @@ Files:
 
 - symbols.csv: one line per named function. Columns are address (RVA), size in bytes (blank when unknown), name, and confidence.
 - pools.csv: fixed-size lists the game keeps (count and size of each entry).
-- forge-editing.md and combat.md: short notes on how those parts work.
+- forge-editing.md, combat.md and ai.md: short notes on how those parts work.
 
 Confidence:
 
