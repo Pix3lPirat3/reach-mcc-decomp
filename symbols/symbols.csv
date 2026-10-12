@@ -5202,7 +5202,6 @@ rva,size,name,confidence
 0x34bf6c,89,ui_widget_class_bdecd8_clone_instance,inferred
 0x34c0a0,338,ui_widget_class_bded30_construct_instance,inferred
 0x34c228,324,ui_widget_class_shared_initialize_instance_data_34c228,inferred
-0x34d418,941,ui_widget_class_a3e4f0_event_component1_do_update,inferred
 0x34eb80,49,ui_widget_class_bded30_create_instance,inferred
 0x34ebb4,58,ui_widget_class_bded30_clone_instance,inferred
 0x34f2b8,98,ui_widget_class_bded70_create_instance,inferred
@@ -15751,7 +15750,6 @@ rva,size,name,confidence
 0x86cba0,230,hk_referenced_object_remove_references_strided,inferred
 0x86ccf0,81,hk_referenced_object_lock_all,inferred
 0x86cde0,20,hkReferencedObject,inferred
-0x86ceb0,49,hkReferencedObject,inferred
 0x86cfa0,69,hkReferencedObject_calcContentStatistics,inferred
 0x86d000,,hk_referenced_object_remove_reference,inferred
 0x86d0a0,21,hk_thread_memory_router_install,inferred
