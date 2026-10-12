@@ -1,0 +1,11 @@
+struct value_slot {
+    int type;
+    int reserved4;
+    char* value;
+};
+
+extern "C" char function_3039b0(char* object, void*, value_slot* slot) {
+    slot->type = 3;
+    slot->value = object + 0x1b4;
+    return 1;
+}
