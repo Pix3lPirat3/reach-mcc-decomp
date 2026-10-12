@@ -5769,7 +5769,6 @@ rva,size,name,confidence
 0x38cbc4,135,cui_get_color_table_entry_vec4_widget_73_38cbc4,inferred
 0x38cc4c,135,cui_get_color_table_entry_vec4_widget_73_38cc4c,inferred
 0x38d14c,204,jpeg_format_message_a,supported
-0x38d4a4,204,jpeg_format_message_b,supported
 0x38de00,112,blf_content_header_init,inferred
 0x38de70,,blf_file_header_validate,supported
 0x38def8,300,blf_chunk_header_parse,supported
@@ -6065,7 +6064,6 @@ rva,size,name,confidence
 0x3c6494,486,forge_editor_event_field_layout_resolve,inferred
 0x3c667c,235,net_point_inside_bounds_table_entry,inferred
 0x3c6768,281,forge_editor_event_write_payload_bits,inferred
-0x3c6884,589,forge_editor_event_read_payload_bits,inferred
 0x3c9c34,,bitstream_write_quantized_unit_float_5bit,inferred
 0x3c9cb8,156,bitstream_write_optional_6bit_index,supported
 0x3ca484,141,simulation_object_get_interpolated_origin,inferred
