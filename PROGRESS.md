@@ -2968,6 +2968,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/openssl&#95;crypto&#95;bio/BIO&#95;vfree.cpp](src/openssl_crypto_bio/BIO_vfree.cpp) | 22 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;CTX&#95;end.cpp](src/openssl_crypto_bn/BN_CTX_end.cpp) | 120 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;GF2m&#95;add.cpp](src/openssl_crypto_bn/BN_GF2m_add.cpp) | 221 | Matched contribution |
+| [src/openssl&#95;crypto&#95;bn/BN&#95;GF2m&#95;mod&#95;div.cpp](src/openssl_crypto_bn/BN_GF2m_mod_div.cpp) | 176 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;asc2bn.cpp](src/openssl_crypto_bn/BN_asc2bn.cpp) | 138 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;get&#95;word.cpp](src/openssl_crypto_bn/BN_get_word.cpp) | 26 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;is&#95;bit&#95;set.cpp](src/openssl_crypto_bn/BN_is_bit_set.cpp) | 45 | Matched contribution |
@@ -2976,7 +2977,9 @@ In progress means no qualifying matched contribution is recorded.
 | [src/openssl&#95;crypto&#95;bn/BN&#95;mask&#95;bits.cpp](src/openssl_crypto_bn/BN_mask_bits.cpp) | 126 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;add.cpp](src/openssl_crypto_bn/BN_mod_add.cpp) | 74 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;add&#95;quick.cpp](src/openssl_crypto_bn/BN_mod_add_quick.cpp) | 54 | Matched contribution |
+| [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;mul.cpp](src/openssl_crypto_bn/BN_mod_mul.cpp) | 186 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;mul&#95;montgomery.cpp](src/openssl_crypto_bn/BN_mod_mul_montgomery.cpp) | 60 | Matched contribution |
+| [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;mul&#95;reciprocal.cpp](src/openssl_crypto_bn/BN_mod_mul_reciprocal.cpp) | 199 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;mod&#95;sqr.cpp](src/openssl_crypto_bn/BN_mod_sqr.cpp) | 98 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;num&#95;bits&#95;word.cpp](src/openssl_crypto_bn/BN_num_bits_word.cpp) | 214 | Matched contribution |
 | [src/openssl&#95;crypto&#95;bn/BN&#95;security&#95;bits.cpp](src/openssl_crypto_bn/BN_security_bits.cpp) | 102 | Matched contribution |
@@ -3067,6 +3070,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/openssl&#95;crypto&#95;rsa/RSA&#95;private&#95;encrypt.cpp](src/openssl_crypto_rsa/RSA_private_encrypt.cpp) | 25 | Matched contribution |
 | [src/openssl&#95;crypto&#95;rsa/RSA&#95;public&#95;decrypt.cpp](src/openssl_crypto_rsa/RSA_public_decrypt.cpp) | 25 | Matched contribution |
 | [src/openssl&#95;crypto&#95;rsa/RSA&#95;public&#95;encrypt.cpp](src/openssl_crypto_rsa/RSA_public_encrypt.cpp) | 25 | Matched contribution |
+| [src/openssl&#95;crypto&#95;rsa/RSA&#95;security&#95;bits.cpp](src/openssl_crypto_rsa/RSA_security_bits.cpp) | 103 | Matched contribution |
 | [src/openssl&#95;crypto&#95;rsa/RSA&#95;size.cpp](src/openssl_crypto_rsa/RSA_size.cpp) | 39 | Matched contribution |
 | [src/openssl&#95;crypto&#95;rsa/RSA&#95;verify.cpp](src/openssl_crypto_rsa/RSA_verify.cpp) | 79 | Matched contribution |
 | [src/openssl&#95;crypto&#95;rsa/rsa&#95;multip&#95;cap.cpp](src/openssl_crypto_rsa/rsa_multip_cap.cpp) | 48 | Matched contribution |
@@ -3098,6 +3102,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/openssl&#95;crypto&#95;x509/X509at&#95;get&#95;attr&#95;count.cpp](src/openssl_crypto_x509/X509at_get_attr_count.cpp) | 22 | Matched contribution |
 | [src/openssl&#95;crypto&#95;x509/X509v3&#95;get&#95;ext&#95;count.cpp](src/openssl_crypto_x509/X509v3_get_ext_count.cpp) | 34 | Matched contribution |
 | [src/openssl&#95;crypto&#95;x509v3/i2s&#95;ASN1&#95;OCTET&#95;STRING.cpp](src/openssl_crypto_x509v3/i2s_ASN1_OCTET_STRING.cpp) | 28 | Matched contribution |
+| [src/openssl&#95;crypto&#95;x509v3/i2v&#95;ASN1&#95;BIT&#95;STRING.cpp](src/openssl_crypto_x509v3/i2v_ASN1_BIT_STRING.cpp) | 109 | Matched contribution |
 | [src/physics/hkMapBase&#95;findKey&#95;675e00.cpp](src/physics/hkMapBase_findKey_675e00.cpp) | 88 | Matched contribution |
 | [src/physics/hkMapBase&#95;findKey&#95;nonempty&#95;675cf0.cpp](src/physics/hkMapBase_findKey_nonempty_675cf0.cpp) | 87 | Matched contribution |
 | [src/physics/hkMapBase&#95;getSizeInBytes&#95;676a10.cpp](src/physics/hkMapBase_getSizeInBytes_676a10.cpp) | 9 | Matched contribution |
