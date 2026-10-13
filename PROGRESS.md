@@ -366,6 +366,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/address&#95;block&#95;06/function&#95;199db4.cpp](src/address_block_06/function_199db4.cpp) | 72 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;199dfc.cpp](src/address_block_06/function_199dfc.cpp) | 71 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;19a110.cpp](src/address_block_06/function_19a110.cpp) | 75 | Matched contribution |
+| [src/address&#95;block&#95;06/function&#95;19a15c.cpp](src/address_block_06/function_19a15c.cpp) | 78 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;19a1ac.cpp](src/address_block_06/function_19a1ac.cpp) | 78 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;19a248.cpp](src/address_block_06/function_19a248.cpp) | 71 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;19a290.cpp](src/address_block_06/function_19a290.cpp) | 72 | Matched contribution |
@@ -402,9 +403,12 @@ In progress means no qualifying matched contribution is recorded.
 | [src/address&#95;block&#95;06/function&#95;1a0dac.cpp](src/address_block_06/function_1a0dac.cpp) | 68 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a0e94.cpp](src/address_block_06/function_1a0e94.cpp) | 72 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a0f30.cpp](src/address_block_06/function_1a0f30.cpp) | 71 | Matched contribution |
+| [src/address&#95;block&#95;06/function&#95;1a116c.cpp](src/address_block_06/function_1a116c.cpp) | 75 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1204.cpp](src/address_block_06/function_1a1204.cpp) | 75 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1250.cpp](src/address_block_06/function_1a1250.cpp) | 71 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1298.cpp](src/address_block_06/function_1a1298.cpp) | 71 | Matched contribution |
+| [src/address&#95;block&#95;06/function&#95;1a1330.cpp](src/address_block_06/function_1a1330.cpp) | 78 | Matched contribution |
+| [src/address&#95;block&#95;06/function&#95;1a1380.cpp](src/address_block_06/function_1a1380.cpp) | 79 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a13d0.cpp](src/address_block_06/function_1a13d0.cpp) | 78 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1420.cpp](src/address_block_06/function_1a1420.cpp) | 79 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a15d8.cpp](src/address_block_06/function_1a15d8.cpp) | 71 | Matched contribution |
@@ -418,6 +422,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/address&#95;block&#95;06/function&#95;1a1ce4.cpp](src/address_block_06/function_1a1ce4.cpp) | 68 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1d84.cpp](src/address_block_06/function_1a1d84.cpp) | 71 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a1f1c.cpp](src/address_block_06/function_1a1f1c.cpp) | 71 | Matched contribution |
+| [src/address&#95;block&#95;06/function&#95;1a2244.cpp](src/address_block_06/function_1a2244.cpp) | 75 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a2290.cpp](src/address_block_06/function_1a2290.cpp) | 76 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a22dc.cpp](src/address_block_06/function_1a22dc.cpp) | 68 | Matched contribution |
 | [src/address&#95;block&#95;06/function&#95;1a2320.cpp](src/address_block_06/function_1a2320.cpp) | 71 | Matched contribution |
