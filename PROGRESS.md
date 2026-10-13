@@ -68,6 +68,7 @@ In progress means no qualifying matched contribution is recorded.
 | [src/address&#95;block&#95;00/function&#95;88d4.cpp](src/address_block_00/function_88d4.cpp) | 13 | Matched contribution |
 | [src/address&#95;block&#95;00/function&#95;9424.cpp](src/address_block_00/function_9424.cpp) | 13 | Matched contribution |
 | [src/address&#95;block&#95;00/function&#95;9434.cpp](src/address_block_00/function_9434.cpp) | 13 | Matched contribution |
+| [src/address&#95;block&#95;00/function&#95;c380.cpp](src/address_block_00/function_c380.cpp) | 3 | Matched contribution |
 | [src/address&#95;block&#95;00/function&#95;d024.cpp](src/address_block_00/function_d024.cpp) | 9 | Matched contribution |
 | [src/address&#95;block&#95;00/function&#95;d080.cpp](src/address_block_00/function_d080.cpp) | 7 | Matched contribution |
 | [src/address&#95;block&#95;00/function&#95;d298.cpp](src/address_block_00/function_d298.cpp) | 12 | Matched contribution |
