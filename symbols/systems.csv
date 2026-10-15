@@ -96,6 +96,7 @@ rva,bytes,system,name,comment
 0x56a68,30,"game end, clock and life cycle",game_globals_publish_state_pointer,stores the state pointer of game globals into its thread local slot
 0x57b60,11,not yet named,,
 0x57c60,45,other named engine code,sanitize_parent_substorage_and_embedded_variant,
+0x58b98,36,"game end, clock and life cycle",game_is_campaign,
 0x5a1b4,7,not yet named,,
 0x5a1bc,110,not yet named,,
 0x5c1f8,30,"game end, clock and life cycle",game_time_globals_publish_state_pointer,stores the state pointer of game time globals into its thread local slot
@@ -186,6 +187,7 @@ rva,bytes,system,name,comment
 0x784dc,30,"game end, clock and life cycle",local_game_engine_globals_publish_state_pointer,stores the state pointer of local game engine globals into its thread local slot
 0x784fc,30,"game end, clock and life cycle",game_engine_globals_publish_state_pointer,stores the state pointer of game engine globals into its thread local slot
 0x7851c,30,"game end, clock and life cycle",game_engine_render_globals_publish_state_pointer,stores the state pointer of game engine render globals into its thread local slot
+0x7fbec,50,"game end, clock and life cycle",game_engine_phase_request,writes the requested phase G+0x840c
 0x82204,16,not yet named,,
 0x82488,16,not yet named,,
 0x82498,16,not yet named,,
@@ -395,6 +397,7 @@ rva,bytes,system,name,comment
 0x122644,43,other named engine code,effect_location_release_game_state_block,
 0x1226f4,43,other named engine code,effect_event_release_game_state_block,
 0x1227a4,43,other named engine code,effect_release_game_state_block,
+0x122e80,37,player and Megalo,fireteam_initialize_for_new_map,
 0x124c50,43,other named engine code,fire_team_release_game_state_block,
 0x12d8a4,8,not yet named,,
 0x12d904,11,not yet named,,
@@ -425,6 +428,7 @@ rva,bytes,system,name,comment
 0x157434,30,not yet named,,
 0x157e80,43,other named engine code,lasing_release_game_state_block,
 0x157f30,30,"game end, clock and life cycle",game_heat_globals_publish_state_pointer,stores the state pointer of game heat globals into its thread local slot
+0x157fec,42,"game end, clock and life cycle",game_heat_initialize_for_new_map,
 0x1583c0,8,not yet named,,
 0x1583c8,30,other named engine code,breakable_surface_breakable_surface_globals_publish_state_pointer,stores the state pointer of breakable surface breakable surface globals into its thread local slot
 0x15842c,30,other named engine code,breakable_surface_redirection_table_publish_state_pointer,stores the state pointer of breakable surface redirection table into its thread local slot
@@ -433,6 +437,7 @@ rva,bytes,system,name,comment
 0x15f7a0,43,other named engine code,decal_system_release_game_state_block,
 0x1614f8,43,other named engine code,screen_effect_release_game_state_block,
 0x1615a8,30,"game end, clock and life cycle",deterministic_game_sound_globals_publish_state_pointer,stores the state pointer of deterministic game sound globals into its thread local slot
+0x161674,42,"game end, clock and life cycle",game_sound_deterministic_initialize_for_new_map,
 0x161c28,30,"game end, clock and life cycle",game_sound_player_effects_globals_publish_state_pointer,stores the state pointer of game sound player effects globals into its thread local slot
 0x16203c,30,player and Megalo,player_effects_publish_state_pointer,stores the state pointer of player effects into its thread local slot
 0x16474c,43,other named engine code,recorded_animations_release_game_state_block,
@@ -2126,6 +2131,7 @@ rva,bytes,system,name,comment
 0x416d70,7,not yet named,,
 0x4171cc,20,not yet named,,
 0x41bb7c,5,replication and simulation,simulation_debug_page_profiler_slot5,
+0x41bb84,24,replication and simulation,simulation_debug_page_quality_slot0,
 0x41fb20,71,networking and session,net_session_boot_machine,"Args (session, machine, reason): boots a machine; reason 0xa halt credit exhausted, reason 0xc catch-up position out of range"
 0x421be0,8,not yet named,,
 0x42207c,87,networking and session,http_service_pool_reset,
@@ -2205,6 +2211,8 @@ rva,bytes,system,name,comment
 0x456148,8,not yet named,,
 0x4562e4,38,replication and simulation,game_engine_player_entity_decode_creation_data,
 0x457ed0,22,replication and simulation,player_editor_request_event_decode_payload,
+0x4581fc,60,replication and simulation,player_loadout_request_event_decode_payload,
+0x45833c,60,replication and simulation,player_money_grant_event_decode_payload,
 0x45859c,101,replication and simulation,player_set_respawn_target_transform_event_decode_payload,
 0x458860,9,not yet named,,
 0x458878,62,replication and simulation,simulation_event_decode_payload_shared_by_player_call_for_help_request_player_force_base_respawn,
@@ -2274,6 +2282,8 @@ rva,bytes,system,name,comment
 0x46418c,13,not yet named,,
 0x4651f4,6,not yet named,,
 0x4651fc,8,networking and session,game_engine_request_boot_player_event_get_name,returns the address of the name text of game engine request boot player event
+0x465204,29,replication and simulation,simulation_entity_is_selected_context_datum,
+0x466cf8,77,networking and session,game_engine_request_boot_player_event_decode_payload,
 0x466d84,8,replication and simulation,incident_event_get_name,returns the address of the name text of incident event
 0x467154,8,replication and simulation,scripted_sound_trigger_event_get_name,returns the address of the name text of scripted sound trigger event
 0x46715c,6,not yet named,,
