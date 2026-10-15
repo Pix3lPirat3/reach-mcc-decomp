@@ -7,6 +7,7 @@ Files:
 - symbols.csv: one line per named function. Columns are address (RVA), size in bytes, name, and confidence.
 - transfer.csv: names carried over from another build of the game by matching code. Columns are address, size, name, match (high or medium) and basis (string, layout, or layout_and_constants). Not checked by hand yet.
 - pools.csv: fixed-size lists the game keeps (count and size of each entry).
+- systems.csv: every exactly matched function with its system, name and a short comment. systems.md: matched functions and bytes per system.
 - forge-editing.md, combat.md, ai.md: short notes on how those parts work.
 
 Confidence:
