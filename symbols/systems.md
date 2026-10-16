@@ -4,12 +4,12 @@ Each exactly matched function is placed by its public name. Counts are exact com
 
 | System | Matched functions | Matched bytes | Named functions in the system |
 | --- | ---: | ---: | ---: |
-| networking and session | 17 | 580 | 854 |
+| networking and session | 17 | 580 | 853 |
 | host migration | 0 | 0 | 18 |
-| replication and simulation | 136 | 2141 | 763 |
+| replication and simulation | 136 | 2141 | 767 |
 | game end, clock and life cycle | 51 | 1043 | 489 |
 | spawning | 2 | 60 | 86 |
-| player and Megalo | 22 | 1032 | 311 |
+| player and Megalo | 22 | 1032 | 310 |
 | scoreboard, HUD markers and ranking | 6 | 217 | 98 |
 | results and stats | 4 | 76 | 52 |
 | game variant and map variant codecs | 22 | 1578 | 562 |
