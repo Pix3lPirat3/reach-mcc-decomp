@@ -41,7 +41,6 @@ rva,size,name,confidence,basis
 0x84588,42,hs_inspect_string,transferred,code_match
 0x86944,41,hs_player_to_player,transferred,code_match
 0x93e94,66,tls_set_g_water_physics_cache_data_allocator,transferred,code_match
-0x9bcf8,768,havok_object_set_velocities,transferred,code_match
 0xa00fc,375,restricted_region_add_member,transferred,code_match
 0xa0274,151,restricted_region_free_member,transferred,code_match
 0xa0bac,718,campaign_metagame_award_campaign_completion_achievements,transferred,code_match
@@ -89,7 +88,6 @@ rva,size,name,confidence,basis
 0x119008,655,effects_render,transferred,code_match
 0x11ca00,441,effect_update_particle_system,transferred,code_match
 0x12d1c8,251,collision_calculate_structure_global_material_type_12d1c8,transferred,code_match
-0x12ed94,315,c_point_collector__addCdPoint,transferred,code_match
 0x1320a4,341,build_multiplayer_string,transferred,code_match
 0x135ed4,,game_allegiance_handle_deleted_object,transferred,code_match
 0x1368ac,305,game_allegiance_propogate_broken,transferred,code_match
@@ -117,7 +115,6 @@ rva,size,name,confidence,basis
 0x18b980,128,c_game_engine__get_message_chud_reference,transferred,code_match
 0x18ba00,201,c_game_engine__fire_team_get_interface_state,transferred,code_match
 0x18cf9c,828,c_game_engine__apply_global_update,transferred,code_match
-0x1c6fa4,29,c_collision_geometry_shape__getAabbImpl,transferred,code_match
 0x1c9660,130,ragdolls_active_ragdoll_count_get,transferred,code_match
 0x1cca44,247,model_adjust_node_matrices_children_recursive,transferred,code_match
 0x1d30c4,629,c_screenshot_render_engine__calculate_bloom,transferred,code_match
@@ -126,7 +123,6 @@ rva,size,name,confidence,basis
 0x1db47c,48,c_observer_director__should_draw_hud_saved_film,transferred,code_match
 0x1dd360,101,c_following_camera__get_camera_hidden_object_index,transferred,code_match
 0x1e7044,86,collision_result_denormalize_t_and_vector,transferred,code_match
-0x1e8fa8,855,collision_hierarchy_objects_in_sphere_attached,transferred,code_match
 0x1f3d28,572,s_action_object_set_orientation_parameters__execute,transferred,code_match
 0x1fc294,137,c_particle_system__get_random_seed,transferred,code_match
 0x1fcd8c,96,c_particle_state_list__get_particle_system_used_states,transferred,code_match
@@ -222,7 +218,6 @@ rva,size,name,confidence,basis
 0x457f88,26,c_simulation_player_editor_request_event_definition__get_player_index,transferred,code_match
 0x460fb4,92,c_simulation_projectile_entity_definition__entity_can_be_created,transferred,code_match
 0x46a160,66,tls_set_g_object_header_data_allocator,transferred,code_match
-0x46f860,,object_needs_rigid_body_update,transferred,code_match
 0x46ff38,404,get_marker_position_in_world_space,transferred,code_match
 0x473fe0,230,object_in_sphere_flags_build,transferred,code_match
 0x475d30,154,recursive_wake_children_awoken_by_movement,transferred,code_match
@@ -314,7 +309,6 @@ rva,size,name,confidence,basis
 0x765a20,,behavior_scared_by_leader_deactivate,transferred,code_match
 0x77590c,210,ai_directive_enter_vehicle_evaluate,transferred,code_match
 0x7768d0,182,ai_directive_target_deactivate,transferred,code_match
-0x91adb6,,destruct,transferred,code_match
 0x114b0,154,ascii_stricmp,transfer_medium,layout
 0x11694,148,csstrnicmp,transfer_medium,layout
 0x11728,143,csstristr,transfer_medium,layout

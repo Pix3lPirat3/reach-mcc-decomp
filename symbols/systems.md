@@ -4,17 +4,18 @@ Each exactly matched function is placed by its public name. Counts are exact com
 
 | System | Matched functions | Matched bytes | Named functions in the system |
 | --- | ---: | ---: | ---: |
-| networking and session | 22 | 616 | 887 |
+| networking and session | 17 | 580 | 854 |
 | host migration | 0 | 0 | 18 |
-| replication and simulation | 141 | 2306 | 926 |
-| game end, clock and life cycle | 51 | 1043 | 492 |
+| replication and simulation | 136 | 2141 | 763 |
+| game end, clock and life cycle | 51 | 1043 | 489 |
 | spawning | 2 | 60 | 86 |
-| player and Megalo | 22 | 1032 | 312 |
+| player and Megalo | 22 | 1032 | 311 |
 | scoreboard, HUD markers and ranking | 6 | 217 | 98 |
-| results and stats | 8 | 218 | 89 |
-| game variant and map variant codecs | 24 | 1595 | 813 |
-| other named engine code | 664 | 33068 |  |
-| library and engine support | 665 | 31916 |  |
+| results and stats | 4 | 76 | 52 |
+| game variant and map variant codecs | 22 | 1578 | 562 |
+| physics and Havok | 320 | 3289 | 3049 |
+| other named engine code | 652 | 32719 |  |
+| library and engine support | 373 | 29336 |  |
 | not yet named | 1994 | 40939 |  |
 | total | 3599 | 113010 | |
 
