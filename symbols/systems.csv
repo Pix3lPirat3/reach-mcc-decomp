@@ -38,8 +38,8 @@ rva,bytes,system,name,comment
 0x137c4,49,other named engine code,datum_get,
 0x138ac,68,not yet named,,
 0x13eb8,6,not yet named,,
-0x15930,91,other named engine code,bit_vector_and,
-0x1598c,312,other named engine code,bit_vector_count_bits,
+0x15930,91,not yet named,,
+0x1598c,312,not yet named,,
 0x15f38,3,not yet named,,
 0x15f3c,9,not yet named,,
 0x1fbe4,49,not yet named,,
@@ -96,7 +96,7 @@ rva,bytes,system,name,comment
 0x56a68,30,"game end, clock and life cycle",game_globals_publish_state_pointer,stores the state pointer of game globals into its thread local slot
 0x57b60,11,not yet named,,
 0x57c60,45,other named engine code,sanitize_parent_substorage_and_embedded_variant,
-0x58b98,36,"game end, clock and life cycle",game_is_campaign,
+0x58b98,36,not yet named,,
 0x5a1b4,7,not yet named,,
 0x5a1bc,110,not yet named,,
 0x5c1f8,30,"game end, clock and life cycle",game_time_globals_publish_state_pointer,stores the state pointer of game time globals into its thread local slot
@@ -265,7 +265,7 @@ rva,bytes,system,name,comment
 0xc1d48,43,other named engine code,object_looping_sounds_release_game_state_block,
 0xc3e74,30,other named engine code,director_globals_publish_state_pointer,stores the state pointer of director globals into its thread local slot
 0xc3e94,30,other named engine code,director_scripting_publish_state_pointer,stores the state pointer of director scripting into its thread local slot
-0xc42dc,5,other named engine code,director_fix_vtables_for_saved_game,
+0xc42dc,5,not yet named,,
 0xc5304,6,other named engine code,c_particle_emitter_gpu_method_slot_2,
 0xc71fc,4,not yet named,,
 0xc773c,30,other named engine code,observer_globals_publish_state_pointer,stores the state pointer of observer globals into its thread local slot
@@ -388,7 +388,7 @@ rva,bytes,system,name,comment
 0x10ee30,16,not yet named,,
 0x112cb4,30,player and Megalo,player_training_globals_publish_state_pointer,stores the state pointer of player training globals into its thread local slot
 0x112e28,10,player and Megalo,player_training_dispose_from_old_map,
-0x112e34,7,other named engine code,player_training_handle_saved_game,
+0x112e34,7,not yet named,,
 0x115848,30,other named engine code,effect_counts_publish_state_pointer,stores the state pointer of effect counts into its thread local slot
 0x115868,30,other named engine code,effect_messaging_queue_publish_state_pointer,stores the state pointer of effect messaging queue into its thread local slot
 0x117bb4,119,not yet named,,
@@ -682,7 +682,7 @@ rva,bytes,system,name,comment
 0x1d7484,30,other named engine code,scripted_camera_globals_publish_state_pointer,stores the state pointer of scripted camera globals into its thread local slot
 0x1da670,29,not yet named,,
 0x1dad14,7,not yet named,,
-0x1db47c,48,other named engine code,c_observer_director__should_draw_hud_saved_film,
+0x1db47c,48,not yet named,,
 0x1dcad4,7,not yet named,,
 0x1de5ec,4,not yet named,,
 0x1de5f0,4,not yet named,,
@@ -747,7 +747,7 @@ rva,bytes,system,name,comment
 0x23e154,37,not yet named,,
 0x23e9cc,12,not yet named,,
 0x23ea0c,12,not yet named,,
-0x23fbbc,5,other named engine code,c_particle_emitter__render_callback,
+0x23fbbc,5,not yet named,,
 0x240df8,43,other named engine code,particle_emitter_release_game_state_block,
 0x245934,30,other named engine code,animation_codec_uncompressed_animated_data_get_scale,
 0x24c6a8,12,not yet named,,
@@ -905,7 +905,7 @@ rva,bytes,system,name,comment
 0x2d49a0,20,not yet named,,
 0x2d5d9c,16,not yet named,,
 0x2d5dac,20,not yet named,,
-0x2d5dc0,19,other named engine code,cui_get_scalar_property_by_return_value_2d5dc0,
+0x2d5dc0,19,not yet named,,
 0x2d5dd4,20,not yet named,,
 0x2d5de8,19,not yet named,,
 0x2d5e1c,23,not yet named,,
@@ -1892,7 +1892,7 @@ rva,bytes,system,name,comment
 0x3829e8,10,not yet named,,
 0x38631c,31,not yet named,,
 0x38633c,69,other named engine code,ui_widget_class_shared_initialize_instance_data_38633c,
-0x3865a8,20,other named engine code,c_subscreen_widget__do_is_focusable,
+0x3865a8,20,not yet named,,
 0x38680c,21,not yet named,,
 0x386848,20,not yet named,,
 0x38685c,13,not yet named,,
@@ -2102,7 +2102,7 @@ rva,bytes,system,name,comment
 0x3e8bd0,8,not yet named,,
 0x3e9e2c,86,not yet named,,
 0x3ebe10,30,replication and simulation,simulation_debug_globals_publish_state_pointer,stores the state pointer of simulation debug globals into its thread local slot
-0x3ec448,30,other named engine code,c_downloader_url__clear,
+0x3ec448,30,not yet named,,
 0x3ef04c,8,other named engine code,xbox_marketplace_create_asset_enumerator_name,
 0x3ef054,13,not yet named,,
 0x3ef140,8,other named engine code,xbox_marketplace_consume_assets_name,
@@ -2335,7 +2335,7 @@ rva,bytes,system,name,comment
 0x4a09ec,9,not yet named,,
 0x4a0c6c,5,other named engine code,object_hook_release_tracked_positions,
 0x4afc98,30,other named engine code,object_early_movers_publish_state_pointer,stores the state pointer of object early movers into its thread local slot
-0x4ba6e0,39,other named engine code,weapon_compute_function_value,
+0x4ba6e0,39,not yet named,,
 0x4c8554,45,not yet named,,
 0x4cb4c4,44,other named engine code,unit_animation_request_play_simple,
 0x4cf9c8,122,not yet named,,
@@ -2389,7 +2389,7 @@ rva,bytes,system,name,comment
 0x50d190,5,other named engine code,unit_action_vault_record_slot4,
 0x50eb94,48,other named engine code,unit_action_equipment_pickup_callback,
 0x50ec78,16,other named engine code,unit_action_equipment_drop_callback,
-0x523fa4,16,other named engine code,c_equipment_type_daddy__update,
+0x523fa4,16,not yet named,,
 0x52a988,43,other named engine code,game_state_block_antenna_free,
 0x52aa7c,30,other named engine code,cloth_globals_publish_state_pointer,stores the state pointer of cloth globals into its thread local slot
 0x52d18c,43,other named engine code,game_state_block_cloth_free,
@@ -2635,7 +2635,7 @@ rva,bytes,system,name,comment
 0x6dc768,7,other named engine code,ai_behavior_87_idle_wander_movement_begin,slot +0x20 of behavior record 0x87 (idle_wander_movement); begin: clears state +0x24
 0x6dea20,5,not yet named,,
 0x6e02e4,17,not yet named,,
-0x6e27c4,5,other named engine code,behavior_posture_deactivate,
+0x6e27c4,5,not yet named,,
 0x6e4324,16,not yet named,,
 0x6e4a5c,7,not yet named,,
 0x6e6850,20,not yet named,,
