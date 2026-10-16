@@ -32,10 +32,10 @@ rva,bytes,system,name,comment
 0x1062c,7,not yet named,,
 0x11a7c,8,other named engine code,stdio_wprintf_options_get,
 0x12d88,44,other named engine code,lock_scope_enter,
-0x13464,171,other named engine code,datum_new,
-0x13510,141,other named engine code,datum_new_at_handle,
-0x135a0,130,other named engine code,datum_new_at_index,
-0x137c4,49,other named engine code,datum_get,
+0x13464,171,objects and datums,datum_new,
+0x13510,141,objects and datums,datum_new_at_handle,
+0x135a0,130,objects and datums,datum_new_at_index,
+0x137c4,49,objects and datums,datum_get,
 0x138ac,68,not yet named,,
 0x13eb8,6,not yet named,,
 0x15930,91,not yet named,,
@@ -482,7 +482,7 @@ rva,bytes,system,name,comment
 0x1916f8,36,not yet named,,
 0x192548,26,not yet named,,
 0x192d1c,43,other named engine code,hs_script_datum_array_created_in_0x817ec_release_game_state_block,
-0x192dcc,43,other named engine code,object_list_header_release_game_state_block,
+0x192dcc,43,objects and datums,object_list_header_release_game_state_block,
 0x1989e8,10,other named engine code,hs_parse_type_object_name_family,
 0x199364,61,other named engine code,hs_rewards_get_cookie_total_eval_shared,
 0x199734,29,other named engine code,hs_players_human_eval,
@@ -756,17 +756,17 @@ rva,bytes,system,name,comment
 0x24f418,30,other named engine code,hue_saturation_control_publish_state_pointer,stores the state pointer of hue saturation control into its thread local slot
 0x25274c,71,not yet named,,
 0x253600,7,not yet named,,
-0x256cac,30,other named engine code,dof_globals_publish_state_pointer,stores the state pointer of dof globals into its thread local slot
-0x2571c4,30,other named engine code,interaction_ripples_publish_state_pointer,stores the state pointer of interaction ripples into its thread local slot
+0x256cac,30,objects and datums,dof_globals_publish_state_pointer,stores the state pointer of dof globals into its thread local slot
+0x2571c4,30,objects and datums,interaction_ripples_publish_state_pointer,stores the state pointer of interaction ripples into its thread local slot
 0x25beec,30,other named engine code,render_texture_globals_publish_state_pointer,stores the state pointer of render texture globals into its thread local slot
 0x25c6c4,30,"scoreboard, HUD markers and ranking",render_hud_globals_publish_state_pointer,stores the state pointer of render hud globals into its thread local slot
-0x25db1c,30,other named engine code,scripted_exposure_globals_publish_state_pointer,stores the state pointer of scripted exposure globals into its thread local slot
+0x25db1c,30,objects and datums,scripted_exposure_globals_publish_state_pointer,stores the state pointer of scripted exposure globals into its thread local slot
 0x25ea64,30,"game end, clock and life cycle",render_game_globals_publish_state_pointer,stores the state pointer of render game globals into its thread local slot
 0x2601f0,43,other named engine code,shield_render_cache_message_release_game_state_block,
 0x2602a0,30,other named engine code,weather_globals_shared_publish_state_pointer,stores the state pointer of weather globals shared into its thread local slot
 0x2602c0,30,other named engine code,weather_globals_render_publish_state_pointer,stores the state pointer of weather globals render into its thread local slot
 0x2602e0,30,other named engine code,weather_globals_deterministic_publish_state_pointer,stores the state pointer of weather globals deterministic into its thread local slot
-0x266308,43,other named engine code,cached_object_render_states_release_game_state_block,
+0x266308,43,objects and datums,cached_object_render_states_release_game_state_block,
 0x267d70,51,not yet named,,
 0x270d40,29,not yet named,,
 0x27bf6c,13,other named engine code,game_state_block_release_state3,
@@ -806,7 +806,7 @@ rva,bytes,system,name,comment
 0x2a688c,10,not yet named,,
 0x2ad0f0,9,not yet named,,
 0x2af450,30,other named engine code,fp_weapons_publish_state_pointer,stores the state pointer of fp weapons into its thread local slot
-0x2af470,30,other named engine code,fp_orientations_publish_state_pointer,stores the state pointer of fp orientations into its thread local slot
+0x2af470,30,objects and datums,fp_orientations_publish_state_pointer,stores the state pointer of fp orientations into its thread local slot
 0x2b0c04,15,not yet named,,
 0x2b6bb4,11,not yet named,,
 0x2b8248,30,"scoreboard, HUD markers and ranking",chud_publish_state_pointer_at_2b8248,
@@ -922,7 +922,7 @@ rva,bytes,system,name,comment
 0x2d82c4,108,other named engine code,c_gui_error_manager__clear_matching_queued_error,
 0x2d8418,52,not yet named,,
 0x2d844c,30,player and Megalo,chud_draw_user_globals_publish_state_pointer,stores the state pointer of chud draw user globals into its thread local slot
-0x2e780c,30,other named engine code,campaign_objectives_publish_state_pointer,stores the state pointer of campaign objectives into its thread local slot
+0x2e780c,30,objects and datums,campaign_objectives_publish_state_pointer,stores the state pointer of campaign objectives into its thread local slot
 0x2e9700,17,not yet named,,
 0x2e9780,15,not yet named,,
 0x2ee8d4,34,other named engine code,cui_binding_record__init,
@@ -2230,7 +2230,7 @@ rva,bytes,system,name,comment
 0x45a874,8,replication and simulation,map_variant_entity_get_name,returns the address of the name text of map variant entity
 0x45a87c,6,replication and simulation,map_variant_entity_get_state_size,
 0x45a890,6,replication and simulation,simulation_vtable_slot_returns_0x3f,
-0x45aa54,34,game variant and map variant codecs,decode_map_variant_chunk_owner,
+0x45aa54,34,replication and simulation,decode_map_variant_chunk_owner,
 0x45b800,8,replication and simulation,game_ai_entity_get_name,returns the address of the name text of game ai entity
 0x45b808,6,replication and simulation,game_ai_entity_get_state_size,
 0x45b810,19,not yet named,,
@@ -2252,9 +2252,9 @@ rva,bytes,system,name,comment
 0x45f700,27,not yet named,,
 0x45f71c,6,not yet named,,
 0x45f724,8,replication and simulation,vehicle_trick_event_get_name,returns the address of the name text of vehicle trick event
-0x45f72c,27,other named engine code,vehicle_trick_event_reference_kind_for_index,
+0x45f72c,27,objects and datums,vehicle_trick_event_reference_kind_for_index,
 0x45f748,8,replication and simulation,vehicle_auto_turret_choose_target_event_get_name,returns the address of the name text of vehicle auto turret choose target event
-0x45f750,27,other named engine code,vehicle_auto_turret_choose_target_event_reference_kind_for_index,
+0x45f750,27,objects and datums,vehicle_auto_turret_choose_target_event_reference_kind_for_index,
 0x45f76c,8,replication and simulation,vehicle_entity_get_name,returns the address of the name text of vehicle entity
 0x45f774,6,replication and simulation,vehicle_entity_get_state_size,
 0x45f77c,11,not yet named,,
@@ -2315,35 +2315,35 @@ rva,bytes,system,name,comment
 0x468700,8,replication and simulation,ai_dialog_event_get_name,returns the address of the name text of ai dialog event
 0x469954,5,not yet named,,
 0x46995c,5,not yet named,,
-0x46a100,30,other named engine code,object_messaging_queue_publish_state_pointer,stores the state pointer of object messaging queue into its thread local slot
-0x46a120,30,other named engine code,object_globals_publish_state_pointer,stores the state pointer of object globals into its thread local slot
-0x46a140,30,other named engine code,object_render_globals_publish_state_pointer,stores the state pointer of object render globals into its thread local slot
-0x46a1a4,30,other named engine code,object_name_list_publish_state_pointer,stores the state pointer of object name list into its thread local slot
-0x46a1c4,30,other named engine code,obj_render_data_publish_state_pointer,stores the state pointer of obj render data into its thread local slot
-0x4776f4,92,other named engine code,c_object_node_matrix_computer__compute_origin_matrix,
+0x46a100,30,objects and datums,object_messaging_queue_publish_state_pointer,stores the state pointer of object messaging queue into its thread local slot
+0x46a120,30,objects and datums,object_globals_publish_state_pointer,stores the state pointer of object globals into its thread local slot
+0x46a140,30,objects and datums,object_render_globals_publish_state_pointer,stores the state pointer of object render globals into its thread local slot
+0x46a1a4,30,objects and datums,object_name_list_publish_state_pointer,stores the state pointer of object name list into its thread local slot
+0x46a1c4,30,objects and datums,obj_render_data_publish_state_pointer,stores the state pointer of obj render data into its thread local slot
+0x4776f4,92,objects and datums,c_object_node_matrix_computer__compute_origin_matrix,
 0x47a574,5,not yet named,,
-0x47c4c0,6,other named engine code,object_handle_differs_from,
+0x47c4c0,6,objects and datums,object_handle_differs_from,
 0x47cbe4,34,not yet named,,
-0x47cdec,43,other named engine code,object_release_game_state_block,
+0x47cdec,43,objects and datums,object_release_game_state_block,
 0x47d6e0,10,other named engine code,mover_state_match_0x22,
 0x496434,30,other named engine code,lights_globals_publish_pointer,
 0x49a2c4,43,other named engine code,lights_release_game_state_block,
 0x49bdf8,30,game variant and map variant codecs,object_placement_globals_publish_state_pointer,stores the state pointer of object placement globals into its thread local slot
-0x49f210,60,other named engine code,unit_action_start_by_id,
+0x49f210,60,objects and datums,unit_action_start_by_id,
 0x4a085c,10,other named engine code,mover_state_match_0x24,
 0x4a0868,10,other named engine code,mover_state_match_0x8,
 0x4a09ec,9,not yet named,,
-0x4a0c6c,5,other named engine code,object_hook_release_tracked_positions,
-0x4afc98,30,other named engine code,object_early_movers_publish_state_pointer,stores the state pointer of object early movers into its thread local slot
+0x4a0c6c,5,objects and datums,object_hook_release_tracked_positions,
+0x4afc98,30,objects and datums,object_early_movers_publish_state_pointer,stores the state pointer of object early movers into its thread local slot
 0x4ba6e0,39,not yet named,,
 0x4c8554,45,not yet named,,
 0x4cb4c4,44,other named engine code,unit_animation_request_play_simple,
 0x4cf9c8,122,not yet named,,
-0x4d1d98,5,other named engine code,device_dispose,
+0x4d1d98,5,objects and datums,device_dispose,
 0x4d477c,43,other named engine code,game_state_block_device_groups_free,
 0x4d4d84,10,not yet named,,
-0x4d9390,30,other named engine code,object_scripting_publish_state_pointer,stores the state pointer of object scripting into its thread local slot
-0x4d9dec,30,other named engine code,object_schedule_globals_publish_state_pointer,stores the state pointer of object schedule globals into its thread local slot
+0x4d9390,30,objects and datums,object_scripting_publish_state_pointer,stores the state pointer of object scripting into its thread local slot
+0x4d9dec,30,objects and datums,object_schedule_globals_publish_state_pointer,stores the state pointer of object schedule globals into its thread local slot
 0x4da7e0,43,other named engine code,game_state_block_object_activation_regions_free,
 0x4da890,30,other named engine code,airstrike_publish_state_pointer,stores the state pointer of airstrike into its thread local slot
 0x4db30c,30,other named engine code,big_battle_squads_publish_state_pointer,stores the state pointer of big battle squads into its thread local slot
@@ -2386,24 +2386,24 @@ rva,bytes,system,name,comment
 0x509434,10,not yet named,,
 0x509440,10,not yet named,,
 0x50a56c,10,player and Megalo,unit_action_player_dodge_record_slot3,
-0x50d190,5,other named engine code,unit_action_vault_record_slot4,
-0x50eb94,48,other named engine code,unit_action_equipment_pickup_callback,
-0x50ec78,16,other named engine code,unit_action_equipment_drop_callback,
+0x50d190,5,objects and datums,unit_action_vault_record_slot4,
+0x50eb94,48,objects and datums,unit_action_equipment_pickup_callback,
+0x50ec78,16,objects and datums,unit_action_equipment_drop_callback,
 0x523fa4,16,not yet named,,
 0x52a988,43,other named engine code,game_state_block_antenna_free,
 0x52aa7c,30,other named engine code,cloth_globals_publish_state_pointer,stores the state pointer of cloth globals into its thread local slot
 0x52d18c,43,other named engine code,game_state_block_cloth_free,
 0x52f064,43,other named engine code,game_state_block_leaf_system_free,
 0x52f8f0,13,other named engine code,mover_state_biped_animation_handler,
-0x52fd90,16,other named engine code,mover_state_unit_enter_hook_0x38,
-0x530a04,16,other named engine code,mover_state_posture_exit_hook_0x30,
-0x531cdc,13,other named engine code,mover_state_biped_leap_anticipation_handler,
-0x531cec,13,other named engine code,mover_state_biped_leap_landing_handler,
+0x52fd90,16,objects and datums,mover_state_unit_enter_hook_0x38,
+0x530a04,16,objects and datums,mover_state_posture_exit_hook_0x30,
+0x531cdc,13,objects and datums,mover_state_biped_leap_anticipation_handler,
+0x531cec,13,objects and datums,mover_state_biped_leap_landing_handler,
 0x535410,5,"game end, clock and life cycle",mover_state_biped_ground_animated_jump_hook_0x30,
 0x5356ec,16,"game end, clock and life cycle",mover_state_biped_ground_takeoff_submit_hook_0x30,
 0x535da8,16,"game end, clock and life cycle",mover_state_biped_ground_transient_posture_hook_0x30,
 0x53600c,16,"game end, clock and life cycle",mover_state_biped_ground_hoist_hook_0x30,
-0x53aa88,16,other named engine code,mover_state_biped_vehicle_board_hook_0x30,
+0x53aa88,16,objects and datums,mover_state_biped_vehicle_board_hook_0x30,
 0x544da4,53,not yet named,,
 0x548f80,18,other named engine code,reset_error_mgr,
 0x54cad0,43,other named engine code,reset_marker_reader,

@@ -6,16 +6,17 @@ Each exactly matched function is placed by its public name. Counts are exact com
 | --- | ---: | ---: | ---: |
 | networking and session | 17 | 580 | 853 |
 | host migration | 0 | 0 | 18 |
-| replication and simulation | 136 | 2141 | 767 |
+| replication and simulation | 137 | 2175 | 777 |
 | game end, clock and life cycle | 51 | 1043 | 490 |
 | spawning | 2 | 60 | 86 |
-| player and Megalo | 22 | 1032 | 309 |
+| player and Megalo | 22 | 1032 | 318 |
 | scoreboard, HUD markers and ranking | 6 | 217 | 98 |
 | results and stats | 4 | 76 | 52 |
-| game variant and map variant codecs | 22 | 1578 | 553 |
+| game variant and map variant codecs | 21 | 1544 | 551 |
 | Forge object menu UI | 2 | 30 | 48 |
-| physics and Havok | 320 | 3289 | 3049 |
-| other named engine code | 653 | 32753 |  |
+| physics and Havok | 320 | 3289 | 3050 |
+| objects and datums | 35 | 1375 | 829 |
+| other named engine code | 618 | 31378 |  |
 | library and engine support | 373 | 29336 |  |
 | not yet named | 1991 | 40875 |  |
 | total | 3599 | 113010 | |

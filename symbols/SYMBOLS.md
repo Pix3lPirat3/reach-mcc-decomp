@@ -10,11 +10,11 @@ Confidence:
 
 Names carried over from another build of the game by matching code are not in this file. They are listed in transfer.csv with the tier `transferred`, because they do not follow from this build.
 
-18768 named functions, 4906 supported, 3 corroborated, covering 4607931 bytes.
+18785 named functions, 4916 supported, 3 corroborated, covering 4620596 bytes.
 
 ## Coverage
 
-The unwind table of this build reports 29032 spans. An unwind span is not a proven function extent, so that number is a floor for how many functions the build has, not a denominator for a coverage figure, and no percentage is given here for that reason. Against that floor, 18768 addresses carry a name in symbols.csv and 20281 carry a note of some kind in the reading notes, so the gap between the two columns below is code that is read but not yet named. Addresses with neither are not listed anywhere in this folder.
+The unwind table of this build reports 29032 spans. An unwind span is not a proven function extent, so that number is a floor for how many functions the build has, not a denominator for a coverage figure, and no percentage is given here for that reason. Against that floor, 18785 addresses carry a name in symbols.csv and 20281 carry a note of some kind in the reading notes, so the gap between the two columns below is code that is read but not yet named. Addresses with neither are not listed anywhere in this folder.
 
 | System | Addresses with a label | Of those, named here |
 | --- | ---: | ---: |
@@ -43,4 +43,4 @@ The unwind table of this build reports 29032 spans. An unwind span is not a prov
 | threading sync | 26 | 25 |
 | devices | 22 | 22 |
 | async io | 17 | 17 |
-| named here with no label entry | 370 | 370 |
+| named here with no label entry | 387 | 387 |
