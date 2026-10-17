@@ -9,7 +9,8 @@ Files:
 - transfer.csv: names carried over from another build of the game by matching code, kept out of symbols.csv because they do not follow from this build. Columns are address, size, name, confidence (transferred, transfer_high or transfer_medium) and basis (string, layout, layout_and_constants or code_match).
 - pools.csv: fixed-size lists the game keeps (count and size of each entry).
 - systems.csv: every exactly matched function with its system, name and a short comment. systems.md: matched functions and bytes per system.
-- forge-editing.md, combat.md, ai.md: short notes on how those parts work.
+- SYSTEM-MAP.md: the entry point to the per-system map, with one page per engine system (networking.md, physics.md, ai.md and so on) giving the tree, coverage and key named functions.
+- combat.md, film.md, forge-editing.md: short notes on parts of the engine.
 
 Confidence in symbols.csv:
 
