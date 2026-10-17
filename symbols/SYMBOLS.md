@@ -10,11 +10,11 @@ Confidence:
 
 Names carried over from another build of the game by matching code are not in this file. They are listed in transfer.csv with the tier `transferred`, because they do not follow from this build.
 
-18785 named functions, 4916 supported, 3 corroborated, covering 4620596 bytes.
+19026 named functions, 4979 supported, 75 corroborated, covering 4772007 bytes.
 
 ## Coverage
 
-The unwind table of this build reports 29032 spans. An unwind span is not a proven function extent, so that number is a floor for how many functions the build has, not a denominator for a coverage figure, and no percentage is given here for that reason. Against that floor, 18785 addresses carry a name in symbols.csv and 20281 carry a note of some kind in the reading notes, so the gap between the two columns below is code that is read but not yet named. Addresses with neither are not listed anywhere in this folder.
+The unwind table of this build reports 29032 spans. An unwind span is not a proven function extent, so that number is a floor for how many functions the build has, not a denominator for a coverage figure, and no percentage is given here for that reason. Against that floor, 19026 addresses carry a name in symbols.csv and 20281 carry a note of some kind in the reading notes, so the gap between the two columns below is code that is read but not yet named. Addresses with neither are not listed anywhere in this folder.
 
 | System | Addresses with a label | Of those, named here |
 | --- | ---: | ---: |
@@ -25,17 +25,17 @@ The unwind table of this build reports 29032 spans. An unwind span is not a prov
 | unclassified | 1448 | 804 |
 | haloscript | 1435 | 1433 |
 | ai | 1425 | 1104 |
-| netcode replication | 1390 | 1316 |
+| netcode replication | 1390 | 1317 |
 | objects datums | 1017 | 955 |
 | engine core | 681 | 585 |
 | generic helper | 590 | 187 |
 | weapons damage | 548 | 517 |
 | memory regions | 366 | 358 |
-| render | 354 | 331 |
-| forge map variant | 295 | 265 |
-| saves films | 274 | 219 |
+| render | 354 | 335 |
+| forge map variant | 295 | 268 |
+| saves films | 274 | 224 |
 | tags map loading | 139 | 134 |
-| megalo vm | 131 | 125 |
+| megalo vm | 131 | 126 |
 | spawning | 111 | 94 |
 | animation | 87 | 87 |
 | stats | 83 | 75 |
@@ -43,4 +43,4 @@ The unwind table of this build reports 29032 spans. An unwind span is not a prov
 | threading sync | 26 | 25 |
 | devices | 22 | 22 |
 | async io | 17 | 17 |
-| named here with no label entry | 387 | 387 |
+| named here with no label entry | 614 | 614 |
